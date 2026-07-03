@@ -931,6 +931,14 @@
           "identifier": "https://project-resources.gdevelop.io/ef4376dc-45a9-49d6-a311-52db332e695b/resources/c7f05757ec8fb8f2c48d0717a448a4ed2c8f92aacffe51bb5c1d63f4446c2efd-metalpipe.mp3",
           "name": "cloud-project-resource"
         }
+      },
+      {
+        "file": "assets/test.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/test.png\"}",
+        "name": "test",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2060,7 +2068,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.8993607583667175,
+        "zoomFactor": 1.0973679695630187,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2074,6 +2082,9 @@
             },
             {
               "name": "Bandit"
+            },
+            {
+              "name": "Normal_dummy"
             }
           ]
         },
@@ -2190,20 +2201,31 @@
             },
             {
               "name": "Solider"
+            },
+            {
+              "name": "Normal_dummy"
             }
           ]
         }
       ],
       "variables": [
         {
+          "name": "HitY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "HitX",
+          "type": "number",
+          "value": 0
+        },
+        {
           "name": "Xfl",
-          "persistentUuid": "080044bd-f232-4f44-adaa-3ef611ee46d6",
           "type": "number",
           "value": 0
         },
         {
           "name": "Yfl",
-          "persistentUuid": "08a68a21-ee86-4e7c-8274-7a6e05f747fd",
           "type": "number",
           "value": 0
         }
@@ -4308,6 +4330,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Normal_dummy",
+          "persistentUuid": "b43ace2a-12b9-45be-bf03-cc71958c8639",
+          "width": 0,
+          "x": 1552,
+          "y": -272,
+          "zOrder": 1049,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4668,6 +4706,7 @@
           "effects": [],
           "behaviors": [
             {
+              "angularMaxSpeed": 0,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "extraBorder": 1,
@@ -4675,7 +4714,6 @@
               "smoothingMaxCellGap": 1,
               "acceleration": 99999,
               "angleOffset": 0,
-              "angularMaxSpeed": 180,
               "cellHeight": 16,
               "cellWidth": 16,
               "gridOffsetX": 0,
@@ -5389,7 +5427,6 @@
           "variables": [
             {
               "name": "HP",
-              "persistentUuid": "fe13cbbe-2ace-4b91-8b6c-f7d2fccae29d",
               "type": "number",
               "value": 100
             },
@@ -5405,7 +5442,6 @@
             },
             {
               "name": "MaxHP",
-              "persistentUuid": "978e14a3-ad4b-4935-a3be-cf64768cb638",
               "type": "number",
               "value": 100
             }
@@ -5413,6 +5449,7 @@
           "effects": [],
           "behaviors": [
             {
+              "angularMaxSpeed": 0,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "allowDiagonals": true,
@@ -5420,7 +5457,6 @@
               "smoothingMaxCellGap": 1,
               "acceleration": 99999,
               "angleOffset": 0,
-              "angularMaxSpeed": 180,
               "cellHeight": 16,
               "cellWidth": 16,
               "gridOffsetX": 0,
@@ -5514,6 +5550,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
               "FireCooldown": 0.1,
@@ -5544,21 +5581,20 @@
               "RandomizedAngle": 0
             },
             {
-              "isFolded": true,
+              "angularMaxSpeed": 0,
               "name": "Pathfinding",
+              "rotateObject": false,
               "type": "PathfindingBehavior::PathfindingBehavior",
               "allowDiagonals": true,
               "extraBorder": 1,
               "smoothingMaxCellGap": 1,
               "acceleration": 99999,
               "angleOffset": 0,
-              "angularMaxSpeed": 180,
               "cellHeight": 16,
               "cellWidth": 16,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
-              "maxSpeed": 75,
-              "rotateObject": false
+              "maxSpeed": 75
             }
           ],
           "animations": [
@@ -8725,6 +8761,120 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Normal_dummy",
+          "persistentUuid": "21d2432b-fa32-42a5-a1ee-70cfcecd6a34",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 1000
+            },
+            {
+              "name": "HasHP",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "IsAttacking_",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "MaxHP",
+              "type": "number",
+              "value": 1000
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "isFolded": true,
+              "maxSpeed": 0,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "test",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "test",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8797,6 +8947,9 @@
               },
               {
                 "objectName": "Zombie"
+              },
+              {
+                "objectName": "Normal_dummy"
               }
             ]
           },
@@ -8902,7 +9055,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Common system",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9042,6 +9194,17 @@
                     "=",
                     "RandomFloatInRange(0,1)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "testext",
+                    "Text",
+                    "=",
+                    "ToString(floorTo(Player.Angle(),2))"
+                  ]
                 }
               ]
             }
@@ -9053,7 +9216,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9090,7 +9252,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Normal Class",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9623,7 +9784,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -9825,6 +9985,17 @@
                                 "=",
                                 "Player.X()",
                                 "Player.Y()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RotateTowardObject"
+                              },
+                              "parameters": [
+                                "Normal_Enemies",
+                                "Player",
+                                "0",
+                                ""
                               ]
                             }
                           ]
@@ -10649,6 +10820,17 @@
                                 "=",
                                 "Player.X()",
                                 "Player.Y()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RotateTowardObject"
+                              },
+                              "parameters": [
+                                "Special_Enemies",
+                                "Player",
+                                "0",
+                                ""
                               ]
                             }
                           ]
@@ -17824,81 +18006,83 @@
                                     ""
                                   ]
                                 }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
+                              ],
+                              "events": [
                                 {
-                                  "type": {
-                                    "value": "Raycast"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "Player.X()",
-                                    "Player.Y()",
-                                    "Player.Angle()",
-                                    "64",
-                                    "HitX",
-                                    "HitY",
-                                    ""
+                                  "aiGeneratedEventId": "01KWKZGW4NV0T1RQ75GQ6KPYCG",
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Raycast"
+                                      },
+                                      "parameters": [
+                                        "Enemies",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "Player.Angle()",
+                                        "64",
+                                        "HitX",
+                                        "HitY",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                                      },
+                                      "parameters": [
+                                        "floor(abs(AngleDifference(Enemies.Angle(),AngleBetweenPositions(Enemies.X(),Enemies.Y(),Player.X(),Player.Y()))))",
+                                        "<",
+                                        "120"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Enemies",
+                                        "HP",
+                                        "-",
+                                        "Player.MD"
+                                      ]
+                                    }
                                   ]
                                 },
                                 {
-                                  "type": {
-                                    "value": "IsTurnedTowardObject"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "Player",
-                                    "150",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetNumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "HP",
-                                    "-",
-                                    "Player.MD"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Else",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Raycast"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "Player.X()",
-                                    "Player.Y()",
-                                    "Player.Angle()",
-                                    "64",
-                                    "HitX",
-                                    "HitY",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetNumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "HP",
-                                    "-",
-                                    "Enemies.HP"
+                                  "type": "BuiltinCommonInstructions::Else",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Raycast"
+                                      },
+                                      "parameters": [
+                                        "Enemies",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "Player.Angle()",
+                                        "64",
+                                        "HitX",
+                                        "HitY",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Enemies",
+                                        "HP",
+                                        "-",
+                                        "Enemies.HP"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
@@ -21640,7 +21824,7 @@
               },
               "parameters": [
                 "",
-                "Zombie",
+                "Normal_dummy",
                 "CursorX()",
                 "CursorY()",
                 ""
