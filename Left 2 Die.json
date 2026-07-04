@@ -859,6 +859,16 @@
         "name": "awp2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "awp-bolt-pull.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "awp-bolt-pull.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1115,7 +1125,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.9296875000000616,
+        "zoomFactor": 0.9934433498260233,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1190,6 +1200,12 @@
             },
             {
               "name": "tec9"
+            },
+            {
+              "name": "r8rel"
+            },
+            {
+              "name": "fiveseven"
             }
           ]
         },
@@ -1264,6 +1280,12 @@
             },
             {
               "name": "scout"
+            },
+            {
+              "name": "r8rel"
+            },
+            {
+              "name": "fiveseven"
             }
           ]
         },
@@ -3545,6 +3567,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "r8rel",
+          "persistentUuid": "b04d5319-6578-4d4d-b1b5-0486b6669690",
+          "width": 0,
+          "x": 1680,
+          "y": -96,
+          "zOrder": 1055,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fiveseven",
+          "persistentUuid": "c8180ef8-7600-462b-b66d-6992fcc667f4",
+          "width": 0,
+          "x": 1712,
+          "y": -96,
+          "zOrder": 1056,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3655,41 +3709,6 @@
               "name": "IsReloading",
               "type": "boolean",
               "value": false
-            },
-            {
-              "name": "Night",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "name": "RE_Time",
-              "type": "number",
-              "value": 2
-            },
-            {
-              "name": "Primary",
-              "type": "string",
-              "value": "Empty"
-            },
-            {
-              "name": "Secondary",
-              "type": "string",
-              "value": "Empty"
-            },
-            {
-              "name": "Melee",
-              "type": "string",
-              "value": "Empty"
-            },
-            {
-              "name": "Util1",
-              "type": "string",
-              "value": "Empty"
-            },
-            {
-              "name": "Util2",
-              "type": "string",
-              "value": "Empty"
             }
           ],
           "effects": [],
@@ -8191,7 +8210,7 @@
             {
               "name": "R_Ammo",
               "type": "number",
-              "value": 120
+              "value": 200
             },
             {
               "hasMixedValues": true,
@@ -9741,6 +9760,249 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "r8rel",
+          "persistentUuid": "a170bd06-6d88-4ea1-90c0-7315fa0c0599",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "hasMixedValues": true,
+              "name": "FireRate",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 70
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 120
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "r8rel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "r8rel.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 19,
+                            "y": 10
+                          },
+                          {
+                            "x": 45,
+                            "y": 10
+                          },
+                          {
+                            "x": 45,
+                            "y": 23
+                          },
+                          {
+                            "x": 19,
+                            "y": 23
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "fiveseven",
+          "persistentUuid": "0d32bcc0-405e-43b6-8c52-a5b9d7b3b55c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "hasMixedValues": true,
+              "name": "FireRate",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 16
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 1000
+            },
+            {
+              "hasMixedValues": true,
+              "name": "R_Time",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "fiveseven",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fiveseven.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 9
+                          },
+                          {
+                            "x": 42,
+                            "y": 9
+                          },
+                          {
+                            "x": 42,
+                            "y": 23
+                          },
+                          {
+                            "x": 20,
+                            "y": 23
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9853,6 +10115,9 @@
                 "objectName": "glock17"
               },
               {
+                "objectName": "fiveseven"
+              },
+              {
                 "objectName": "pipe"
               },
               {
@@ -9869,6 +10134,9 @@
               },
               {
                 "objectName": "awp"
+              },
+              {
+                "objectName": "r8rel"
               }
             ]
           },
@@ -13682,7 +13950,6 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "folded": true,
                               "name": "Ammo",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
@@ -13830,8 +14097,8 @@
                                         "Player.X()",
                                         "Player.Y()",
                                         "bulle",
-                                        "CursorX()+RandomFloatInRange(-16,16)",
-                                        "CursorY()+RandomFloatInRange(-16,16)",
+                                        "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                        "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                         "500",
                                         ""
                                       ]
@@ -13876,6 +14143,276 @@
                                       "parameters": [
                                         "",
                                         "gunshot.mp3",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"m4a1s\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "\"Dark layer\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Ammo",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                      },
+                                      "parameters": [
+                                        "crosshair",
+                                        "Animation",
+                                        "=",
+                                        "\"crosshair golden\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "bulle",
+                                        "CursorX()",
+                                        "CursorY()",
+                                        "500",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PC_Ammo",
+                                        "-",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "Animation",
+                                        "=",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "IsPrimary",
+                                        "True",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "silenced.mp3",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                      },
+                                      "parameters": [
+                                        "crosshair",
+                                        "Animation",
+                                        "=",
+                                        "\"crosshair\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "bulle",
+                                        "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                        "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                        "500",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PC_Ammo",
+                                        "-",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "Animation",
+                                        "=",
+                                        "\"bulle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "IsPrimary",
+                                        "True",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "silenced.mp3",
                                         "",
                                         "",
                                         ""
@@ -14078,8 +14615,8 @@
                                         "Player.X()",
                                         "Player.Y()",
                                         "bulle",
-                                        "CursorX()+RandomFloatInRange(-16,16)",
-                                        "CursorY()+RandomFloatInRange(-16,16)",
+                                        "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                        "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                         "500",
                                         ""
                                       ]
@@ -14206,7 +14743,18 @@
                                     "InvItemPrimary",
                                     "Animation",
                                     "=",
-                                    "\"m4a1s\""
+                                    "\"awp\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"scout\""
                                   ]
                                 }
                               ]
@@ -14214,6 +14762,338 @@
                           ],
                           "actions": [],
                           "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "PrimarySlot",
+                                    "Animation",
+                                    "=",
+                                    "\"inventoryslotselectlonh\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ZoomCamera"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "1",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ZoomCamera"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "1",
+                                    "\"Dark layer\"",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Ammo",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair golden\""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "Player.X()",
+                                            "Player.Y()",
+                                            "bulle",
+                                            "CursorX()",
+                                            "CursorY()",
+                                            "2400",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "Animation",
+                                            "=",
+                                            "\"golle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "IsPrimary",
+                                            "True",
+                                            "\"golle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "gunshot.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair\""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "Player.X()",
+                                            "Player.Y()",
+                                            "bulle",
+                                            "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                            "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                            "800",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "Animation",
+                                            "=",
+                                            "\"bulle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "IsPrimary",
+                                            "True",
+                                            "\"golle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "gunshot.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"gs3g1\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "PrimarySlot",
+                                    "Animation",
+                                    "=",
+                                    "\"inventoryslotselectlonh\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ZoomCamera"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "1",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ZoomCamera"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "1",
+                                    "\"Dark layer\"",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
                             {
                               "colorB": 228,
                               "colorG": 176,
@@ -14238,16 +15118,6 @@
                                     },
                                     {
                                       "type": {
-                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "FireBullet",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
                                         "value": "AnimatableCapability::AnimatableBehavior::Name"
                                       },
                                       "parameters": [
@@ -14255,6 +15125,16 @@
                                         "Animation",
                                         "=",
                                         "\"crosshair golden\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
                                       ]
                                     }
                                   ],
@@ -14314,7 +15194,7 @@
                                       },
                                       "parameters": [
                                         "",
-                                        "silenced.mp3",
+                                        "gunshot.mp3",
                                         "",
                                         "",
                                         ""
@@ -14336,16 +15216,6 @@
                                     },
                                     {
                                       "type": {
-                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "FireBullet",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
                                         "value": "AnimatableCapability::AnimatableBehavior::Name"
                                       },
                                       "parameters": [
@@ -14353,6 +15223,16 @@
                                         "Animation",
                                         "=",
                                         "\"crosshair\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
                                       ]
                                     }
                                   ],
@@ -14367,8 +15247,8 @@
                                         "Player.X()",
                                         "Player.Y()",
                                         "bulle",
-                                        "CursorX()+RandomFloatInRange(-16,16)",
-                                        "CursorY()+RandomFloatInRange(-16,16)",
+                                        "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                        "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                         "500",
                                         ""
                                       ]
@@ -14412,299 +15292,10 @@
                                       },
                                       "parameters": [
                                         "",
-                                        "silenced.mp3",
+                                        "gunshot.mp3",
                                         "",
                                         "",
                                         ""
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ],
-                              "parameters": []
-                            }
-                          ]
-                        },
-                        {
-                          "folded": true,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
-                                "InvItemPrimary",
-                                "Animation",
-                                "!=",
-                                "\"empty\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                  },
-                                  "parameters": [
-                                    "InvItemPrimary",
-                                    "Animation",
-                                    "=",
-                                    "\"awp\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                  },
-                                  "parameters": [
-                                    "InvItemPrimary",
-                                    "Animation",
-                                    "=",
-                                    "\"scout\""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [],
-                          "events": [
-                            {
-                              "colorB": 228,
-                              "colorG": 176,
-                              "colorR": 74,
-                              "creationTime": 0,
-                              "folded": true,
-                              "name": "Ammo",
-                              "source": "",
-                              "type": "BuiltinCommonInstructions::Group",
-                              "events": [
-                                {
-                                  "folded": true,
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "MouseButtonFromTextPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "\"Left\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                      },
-                                      "parameters": [
-                                        "crosshair",
-                                        "Animation",
-                                        "=",
-                                        "\"crosshair golden\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "BuiltinCommonInstructions::Once"
-                                      },
-                                      "parameters": []
-                                    }
-                                  ],
-                                  "actions": [],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            ""
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::FireTowardPosition"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            "Player.X()",
-                                            "Player.Y()",
-                                            "bulle",
-                                            "CursorX()",
-                                            "CursorY()",
-                                            "500",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "PC_Ammo",
-                                            "-",
-                                            "1"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                          },
-                                          "parameters": [
-                                            "bulle",
-                                            "Animation",
-                                            "=",
-                                            "\"golle\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetBooleanObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "bulle",
-                                            "IsPrimary",
-                                            "True",
-                                            "\"golle\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "PlaySound"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "gunshot.mp3",
-                                            "",
-                                            "",
-                                            ""
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "folded": true,
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "MouseButtonFromTextPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "\"Left\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                      },
-                                      "parameters": [
-                                        "crosshair",
-                                        "Animation",
-                                        "=",
-                                        "\"crosshair\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "BuiltinCommonInstructions::Once"
-                                      },
-                                      "parameters": []
-                                    }
-                                  ],
-                                  "actions": [],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            ""
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::FireTowardPosition"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            "Player.X()",
-                                            "Player.Y()",
-                                            "bulle",
-                                            "CursorX()+RandomFloatInRange(-16,16)",
-                                            "CursorY()+RandomFloatInRange(-16,16)",
-                                            "500",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "PC_Ammo",
-                                            "-",
-                                            "1"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                          },
-                                          "parameters": [
-                                            "bulle",
-                                            "Animation",
-                                            "=",
-                                            "\"bulle\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetBooleanObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "bulle",
-                                            "IsPrimary",
-                                            "True",
-                                            "\"golle\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "PlaySound"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "gunshot.mp3",
-                                            "",
-                                            "",
-                                            ""
-                                          ]
-                                        }
                                       ]
                                     }
                                   ]
@@ -14724,6 +15315,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Secondary",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -14843,6 +15435,17 @@
                                 "!=",
                                 "\"usps\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemSecondary",
+                                "Animation",
+                                "!=",
+                                "\"r8rel\""
+                              ]
                             }
                           ],
                           "actions": [
@@ -14875,7 +15478,6 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "folded": true,
                               "name": "Ammo",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
@@ -14890,17 +15492,6 @@
                                       "parameters": [
                                         "",
                                         "\"Left\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                      },
-                                      "parameters": [
-                                        "crosshair",
-                                        "Animation",
-                                        "=",
-                                        "\"crosshair golden\""
                                       ]
                                     },
                                     {
@@ -14923,6 +15514,17 @@
                                             "Player",
                                             "FireBullet",
                                             ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair golden\""
                                           ]
                                         }
                                       ],
@@ -14989,41 +15591,7 @@
                                           ]
                                         }
                                       ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "MouseButtonFromTextPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "\"Left\""
-                                      ]
                                     },
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                      },
-                                      "parameters": [
-                                        "crosshair",
-                                        "Animation",
-                                        "=",
-                                        "\"crosshair\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "BuiltinCommonInstructions::Once"
-                                      },
-                                      "parameters": []
-                                    }
-                                  ],
-                                  "actions": [],
-                                  "events": [
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
@@ -15035,6 +15603,17 @@
                                             "Player",
                                             "FireBullet",
                                             ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair\""
                                           ]
                                         }
                                       ],
@@ -15049,8 +15628,8 @@
                                             "Player.X()",
                                             "Player.Y()",
                                             "bulle",
-                                            "CursorX()+RandomFloatInRange(-16,16)",
-                                            "CursorY()+RandomFloatInRange(-16,16)",
+                                            "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                            "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                             "500",
                                             ""
                                           ]
@@ -15155,13 +15734,11 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "folded": true,
                               "name": "Ammo",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15171,17 +15748,6 @@
                                       "parameters": [
                                         "",
                                         "\"Left\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                      },
-                                      "parameters": [
-                                        "crosshair",
-                                        "Animation",
-                                        "=",
-                                        "\"crosshair golden\""
                                       ]
                                     },
                                     {
@@ -15204,6 +15770,17 @@
                                             "Player",
                                             "FireBullet",
                                             ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair golden\""
                                           ]
                                         }
                                       ],
@@ -15270,42 +15847,7 @@
                                           ]
                                         }
                                       ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "folded": true,
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "MouseButtonFromTextPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "\"Left\""
-                                      ]
                                     },
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                      },
-                                      "parameters": [
-                                        "crosshair",
-                                        "Animation",
-                                        "=",
-                                        "\"crosshair\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "BuiltinCommonInstructions::Once"
-                                      },
-                                      "parameters": []
-                                    }
-                                  ],
-                                  "actions": [],
-                                  "events": [
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
@@ -15317,6 +15859,17 @@
                                             "Player",
                                             "FireBullet",
                                             ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair\""
                                           ]
                                         }
                                       ],
@@ -15331,8 +15884,8 @@
                                             "Player.X()",
                                             "Player.Y()",
                                             "bulle",
-                                            "CursorX()+RandomFloatInRange(-16,16)",
-                                            "CursorY()+RandomFloatInRange(-16,16)",
+                                            "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                            "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                             "500",
                                             ""
                                           ]
@@ -15437,7 +15990,6 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "folded": true,
                               "name": "Ammo",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
@@ -15613,7 +16165,6 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "folded": true,
                               "name": "Ammo",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
@@ -15761,8 +16312,8 @@
                                         "Player.X()",
                                         "Player.Y()",
                                         "bulle",
-                                        "CursorX()+RandomFloatInRange(-16,16)",
-                                        "CursorY()+RandomFloatInRange(-16,16)",
+                                        "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                        "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                         "500",
                                         ""
                                       ]
@@ -15820,6 +16371,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -15942,6 +16494,7 @@
                                       "colorG": 176,
                                       "colorR": 74,
                                       "creationTime": 0,
+                                      "folded": true,
                                       "name": "Ammo Burst",
                                       "source": "",
                                       "type": "BuiltinCommonInstructions::Group",
@@ -16003,8 +16556,8 @@
                                                 "Player.X()",
                                                 "Player.Y()",
                                                 "bulle",
-                                                "CursorX()+RandomFloatInRange(-16,16)",
-                                                "CursorY()+RandomFloatInRange(-16,16)",
+                                                "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                                "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                                 "500",
                                                 ""
                                               ]
@@ -16114,8 +16667,8 @@
                                                     "Player.X()",
                                                     "Player.Y()",
                                                     "bulle",
-                                                    "CursorX()+RandomFloatInRange(-16,16)",
-                                                    "CursorY()+RandomFloatInRange(-16,16)",
+                                                    "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                                    "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                                     "500",
                                                     ""
                                                   ]
@@ -16225,8 +16778,8 @@
                                                         "Player.X()",
                                                         "Player.Y()",
                                                         "bulle",
-                                                        "CursorX()+RandomFloatInRange(-16,16)",
-                                                        "CursorY()+RandomFloatInRange(-16,16)",
+                                                        "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                                        "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                                         "500",
                                                         ""
                                                       ]
@@ -16495,8 +17048,8 @@
                                                     "Player.X()",
                                                     "Player.Y()",
                                                     "bulle",
-                                                    "CursorX()+RandomFloatInRange(-16,16)",
-                                                    "CursorY()+RandomFloatInRange(-16,16)",
+                                                    "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                                    "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
                                                     "500",
                                                     ""
                                                   ]
@@ -16552,6 +17105,434 @@
                                         }
                                       ],
                                       "parameters": []
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemSecondary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemSecondary",
+                                    "Animation",
+                                    "=",
+                                    "\"r8rel\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "\"Dark layer\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "folded": true,
+                              "name": "Accurate",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SMode",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "awp-bolt-pull.mp3",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SMode",
+                                        "True",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ResetObjectTimer"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "\"rev\""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": true,
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SMode",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SMode",
+                                        "False",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ResetObjectTimer"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "\"rev\""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SMode",
+                                        "True",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "CompareObjectTimer"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "\"rev\"",
+                                        ">=",
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "bulle",
+                                        "CursorX()",
+                                        "CursorY()",
+                                        "500",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SC_Ammo",
+                                        "-",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "IsPrimary",
+                                        "False",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "Animation",
+                                        "=",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "gunshot.mp3",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SMode",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            },
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "folded": true,
+                              "name": "Quick",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "folded": true,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Right\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "Player.X()",
+                                            "Player.Y()",
+                                            "bulle",
+                                            "CursorX()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                            "CursorY()+RandomInRange((DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/-2),(DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/2))",
+                                            "500",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "SC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "IsPrimary",
+                                            "False",
+                                            "\"golle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "Animation",
+                                            "=",
+                                            "\"bulle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "gunshot.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "SMode",
+                                            "False",
+                                            ""
+                                          ]
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -20860,7 +21841,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -20918,7 +21899,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "UI layer",
           "renderingType": "",
           "visibility": true,
