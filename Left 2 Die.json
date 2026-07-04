@@ -337,270 +337,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/20260327073203.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260327073201.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/cf1570467f7d1c333bbc354944d0d7593b1cdc5f427a21b54ad000d6798e2ec9-20260327073201.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260327073237.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260327073235.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/5a6200a2c2fe1bc674a8f38378295d054526355f40082500e819954f1e2eb89d-20260327073235.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260327073312.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260327073310.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/bd692dd9aef972d8d3e91a3c80708f2dea06d043d8e8ebcaf532102d6e7f9674-20260327073310.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260402141126.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260402141124.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/72348a180a098c75756237f0680aed2c4b6e0961634534a9f81b5bb2041deaf7-20260402141124.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260404073503.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260404073501.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/d3df7377624168a95c97dfb549de8813af0e0f19136d3d5f4377bd66a12339bb-20260404073501.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260404073509.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260404073507.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/dfe79cc09f18ea4dea222d4cf434f6abdd5329853d9c2c54cf0abeceb3550cdf-20260404073507.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260404073517.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260404073515.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/0885e0c665022b8b0c689dbe58566e9c152fe4730ea72cadcb0f34b03f0e7f46-20260404073515.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260405124656.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260405124654.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/f3ca1f0f301250b36eba524863c8a0de7e9df3f52f60bbde30776e79b627d7da-20260405124654.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260410181406.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260410181404.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/f0a3a9e54526d0dbbd83b846a6f1c23033e1e1294e195dccd54dc4dcfa8386d5-20260410181404.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260410181418.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260410181416.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/545cb43b1c7a9ea69f0817dbf35aa36e3243185daa374cfaf342bdc76914fd97-20260410181416.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260410181437.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260410181435.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/afb0a8f1d8301513ffd968123b45be6ed3133f5dd946995cb684d36bbbf8586e-20260410181435.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260410181455.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260410181453.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/ded6c781f2b7e276024288e04765b2a641e1c060e2cedcf2ea20a12e3a94c18e-20260410181453.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260410181554.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260410181552.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/2fc8ec9ccfe9dd2af873ad5f44e2796e24399347a0653ec8100cc3d011359553-20260410181552.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260410181649.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260410181647.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/46f3d8894f292278c6e38ed0a2755bbf22b7f702d7e5d5ef615cb43ef601547b-20260410181647.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260426180540.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260426180538.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/c9ebf0225f145d5df7c6de4758320d10525e9d0f1b69364baa56481e9f04c532-20260426180538.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260429210340.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260429210338.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/a3ac52ad9d991a64f22b57da37cbda851522076730745068dae41883d08f6b71-20260429210338.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260429210347.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260429210345.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/21b62610c7eda063d3e397aaaff275f79b730581bf35e81ecfac45af383167e4-20260429210345.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260510094243.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260510094241.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/915cf9fff73f43d34756f4c092ec7d840ebeb1dafacd88bc14fb8d3882cd9bf4-20260510094241.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260526122027.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260526122025.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/bd6c3b095f3842599dda16c1db103367aedecc37c44b9f75801b3a9775876a44-20260526122025.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260526122034.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260526122032.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/969ecb0efb139400578f8d061057b5aaa85c1e083298bb0bb24980b5590305af-20260526122032.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260616173246.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260616173244.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/cabc790828f2fd6571b199ea8b6568e3b3b79aa02705bd4dc0da4166b671e479-20260616173244.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/20260617074332.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "20260617074330.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/ddf6c8d304d5c40b52f454683d9fba1232432572aa1ab0f66b3077e50a224f90-20260617074330.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
         "file": "assets/Button8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -939,6 +675,198 @@
         "name": "test",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/m4a1s.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "m4a1s",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "famas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "famas.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "m4a4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "m4a4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scar.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "xm1014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "xm1014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "winchester.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "winchester.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sawedoff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sawedoff.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "awp.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"awp.png\",\"extension\":\".png\"}",
+        "name": "awp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "r8rel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "r8rel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fiveseven.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fiveseven.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "uzi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "uzi.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ppbizon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ppbizon.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "p90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p90.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mac10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mac10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "krissvector.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "krissvector.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "kmsmg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "kmsmg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "mps5d.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mps5d.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "grenlaun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grenlaun.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/m249.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "m249",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/rpg.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "rpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/gs3g1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "gs3g1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/scout.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "scout",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/awp.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "awp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/awp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "awp2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1195,7 +1123,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.8700232859857834,
+        "zoomFactor": 1.3389693172846218,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1235,6 +1163,15 @@
             },
             {
               "name": "aug"
+            },
+            {
+              "name": "m4a1s"
+            },
+            {
+              "name": "m249"
+            },
+            {
+              "name": "awp"
             }
           ]
         },
@@ -1272,6 +1209,9 @@
             },
             {
               "name": "knife"
+            },
+            {
+              "name": "machete"
             }
           ]
         },
@@ -1314,6 +1254,18 @@
             },
             {
               "name": "knife"
+            },
+            {
+              "name": "machete"
+            },
+            {
+              "name": "m4a1s"
+            },
+            {
+              "name": "m249"
+            },
+            {
+              "name": "awp"
             }
           ]
         },
@@ -3096,8 +3048,8 @@
           "name": "Player",
           "persistentUuid": "e69fe3d0-892f-451a-830c-8708cab40128",
           "width": 0,
-          "x": 1888,
-          "y": -96,
+          "x": 1840,
+          "y": -48,
           "zOrder": 1030,
           "numberProperties": [],
           "stringProperties": [],
@@ -3478,6 +3430,70 @@
           "x": 1552,
           "y": -272,
           "zOrder": 1049,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "machete",
+          "persistentUuid": "eaf8bc77-8748-4afb-9555-cb3b44dfa536",
+          "width": 0,
+          "x": 1904,
+          "y": -144,
+          "zOrder": 1050,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "m4a1s",
+          "persistentUuid": "e3b099c3-83a6-4f9b-a55c-6fbcc307a07e",
+          "width": 0,
+          "x": 1696,
+          "y": -112,
+          "zOrder": 1051,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "m249",
+          "persistentUuid": "96507820-11a4-4153-96f8-adc6243379e3",
+          "width": 0,
+          "x": 1760,
+          "y": -112,
+          "zOrder": 1052,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "awp",
+          "persistentUuid": "0b64f2e0-3dce-47ea-bb20-eadbe0b3e530",
+          "width": 0,
+          "x": 1824,
+          "y": -112,
+          "zOrder": 1053,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5955,6 +5971,634 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "m4a1s",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "m4a1s",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "famas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "famas.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "m4a4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "m4a4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "scar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "scar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "xm1014",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "xm1014.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "winchester",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "winchester.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "sawedoff",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sawedoff.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "scout",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "scout",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "gs3g1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "gs3g1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "awp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "awp2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "grenlaun",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "grenlaun.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rpg",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "rpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "m249",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "m249",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6313,6 +6957,438 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "tec9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "r8rel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "r8rel.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "fiveseven",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fiveseven.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "uzi",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "uzi.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ppbizon",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ppbizon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "p90",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "p90.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "mac10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mac10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "krissvector",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "krissvector.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "kmsmg",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "kmsmg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 32
+                          },
+                          {
+                            "x": 16,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "mps5d",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "mps5d.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8010,11 +9086,521 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "machete",
+          "persistentUuid": "8521a7b6-2a3d-4624-ad59-d6399bb7e33a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 1.6
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 80
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "hasMixedValues": true,
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 30
+            },
+            {
+              "hasMixedValues": true,
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 800
+            },
+            {
+              "hasMixedValues": true,
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 30
+            },
+            {
+              "hasMixedValues": true,
+              "name": "R_Time",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "machete",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "machete.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 10
+                          },
+                          {
+                            "x": 59,
+                            "y": 10
+                          },
+                          {
+                            "x": 59,
+                            "y": 23
+                          },
+                          {
+                            "x": 4,
+                            "y": 23
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "m4a1s",
+          "persistentUuid": "7c702f7e-efb2-402e-9452-2467532a4fb0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 35
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 400
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "m4a1s",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "m4a1s",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 64,
+                            "y": 7
+                          },
+                          {
+                            "x": 64,
+                            "y": 27
+                          },
+                          {
+                            "x": 0,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "m249",
+          "persistentUuid": "bbfe313c-1ebf-454e-9fde-eb9d57e27501",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 5000
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "m249",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "m249",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 8
+                          },
+                          {
+                            "x": 64,
+                            "y": 8
+                          },
+                          {
+                            "x": 64,
+                            "y": 28
+                          },
+                          {
+                            "x": 0,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "awp",
+          "persistentUuid": "8ac1c558-cff1-4cf1-9d7b-d3ff15022970",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 400
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "awp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "awp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 64,
+                            "y": 6
+                          },
+                          {
+                            "x": 64,
+                            "y": 24
+                          },
+                          {
+                            "x": 0,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Enemies",
+            "children": [
+              {
+                "objectName": "Enemy_bulle"
+              },
+              {
+                "objectName": "Enemy_HP"
+              },
+              {
+                "objectName": "Solider"
+              },
+              {
+                "objectName": "Bandit"
+              },
+              {
+                "objectName": "Zombie"
+              },
+              {
+                "objectName": "Normal_dummy"
+              }
+            ]
+          },
           {
             "folderName": "Player Related",
             "children": [
@@ -8066,33 +9652,13 @@
             ]
           },
           {
-            "folderName": "Enemies",
-            "children": [
-              {
-                "objectName": "Enemy_bulle"
-              },
-              {
-                "objectName": "Enemy_HP"
-              },
-              {
-                "objectName": "Solider"
-              },
-              {
-                "objectName": "Bandit"
-              },
-              {
-                "objectName": "Zombie"
-              },
-              {
-                "objectName": "Normal_dummy"
-              }
-            ]
-          },
-          {
             "folderName": "Items",
             "children": [
               {
                 "objectName": "ak47"
+              },
+              {
+                "objectName": "m249"
               },
               {
                 "objectName": "tec9"
@@ -8119,22 +9685,31 @@
                 "objectName": "pipe"
               },
               {
-                "objectName": "Util1Count"
-              },
-              {
-                "objectName": "Util2Count"
-              },
-              {
                 "objectName": "chainsaw"
               },
               {
                 "objectName": "knife"
+              },
+              {
+                "objectName": "machete"
+              },
+              {
+                "objectName": "m4a1s"
+              },
+              {
+                "objectName": "awp"
               }
             ]
           },
           {
             "folderName": "INVSYS",
             "children": [
+              {
+                "objectName": "Util2Count"
+              },
+              {
+                "objectName": "Util1Count"
+              },
               {
                 "objectName": "InvItemPrimary"
               },
@@ -8531,6 +10106,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -8605,21 +10181,40 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::Name"
                               },
                               "parameters": [
-                                "InvItemPrimary",
-                                "Animation",
-                                "!=",
-                                "\"ak47\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
                                 "bulle",
                                 "Animation",
                                 "=",
                                 "\"golle\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "!=",
+                                    "\"ak47\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "!=",
+                                    "\"awp\""
+                                  ]
+                                }
                               ]
                             }
                           ],
@@ -8654,21 +10249,40 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::Name"
                               },
                               "parameters": [
-                                "InvItemPrimary",
-                                "Animation",
-                                "=",
-                                "\"ak47\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
                                 "bulle",
                                 "Animation",
                                 "=",
                                 "\"golle\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"ak47\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"awp\""
+                                  ]
+                                }
                               ]
                             }
                           ],
@@ -8698,6 +10312,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -9307,7 +10922,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Special Class",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9525,21 +11139,40 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::Name"
                               },
                               "parameters": [
-                                "InvItemPrimary",
-                                "Animation",
-                                "!=",
-                                "\"ak47\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
                                 "bulle",
                                 "Animation",
                                 "=",
                                 "\"golle\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "!=",
+                                    "\"ak47\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "!=",
+                                    "\"awp\""
+                                  ]
+                                }
                               ]
                             }
                           ],
@@ -9574,21 +11207,40 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::Name"
                               },
                               "parameters": [
-                                "InvItemPrimary",
-                                "Animation",
-                                "=",
-                                "\"ak47\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
                                 "bulle",
                                 "Animation",
                                 "=",
                                 "\"golle\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "!=",
+                                    "\"ak47\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "!=",
+                                    "\"awp\""
+                                  ]
+                                }
                               ]
                             }
                           ],
@@ -11263,7 +12915,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -11403,7 +13054,7 @@
                                 "value": "BuiltinCommonInstructions::CompareNumbers"
                               },
                               "parameters": [
-                                "Player.PR_Ammo",
+                                "Player.SR_Ammo",
                                 ">=",
                                 "Player.SM_Ammo"
                               ]
@@ -11750,6 +13401,50 @@
                                 "Animation",
                                 "!=",
                                 "\"aug\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"scout\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"gs3g1\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"m4a1s\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"awp\""
                               ]
                             }
                           ],
@@ -12304,6 +13999,543 @@
                               "parameters": []
                             }
                           ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"m4a1s\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "folded": true,
+                              "name": "Ammo",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                      },
+                                      "parameters": [
+                                        "crosshair",
+                                        "Animation",
+                                        "=",
+                                        "\"crosshair golden\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "bulle",
+                                        "CursorX()",
+                                        "CursorY()",
+                                        "500",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PC_Ammo",
+                                        "-",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "Animation",
+                                        "=",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "IsPrimary",
+                                        "True",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "silenced.mp3",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                      },
+                                      "parameters": [
+                                        "crosshair",
+                                        "Animation",
+                                        "=",
+                                        "\"crosshair\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "bulle",
+                                        "CursorX()+RandomFloatInRange(-16,16)",
+                                        "CursorY()+RandomFloatInRange(-16,16)",
+                                        "500",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PC_Ammo",
+                                        "-",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "Animation",
+                                        "=",
+                                        "\"bulle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "IsPrimary",
+                                        "True",
+                                        "\"golle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "silenced.mp3",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"awp\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"scout\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "folded": true,
+                              "name": "Ammo",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "folded": true,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                      },
+                                      "parameters": [
+                                        "crosshair",
+                                        "Animation",
+                                        "=",
+                                        "\"crosshair golden\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "Player.X()",
+                                            "Player.Y()",
+                                            "bulle",
+                                            "CursorX()",
+                                            "CursorY()",
+                                            "500",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "Animation",
+                                            "=",
+                                            "\"golle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "IsPrimary",
+                                            "True",
+                                            "\"golle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "silenced.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "folded": true,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                      },
+                                      "parameters": [
+                                        "crosshair",
+                                        "Animation",
+                                        "=",
+                                        "\"crosshair\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "Player.X()",
+                                            "Player.Y()",
+                                            "bulle",
+                                            "CursorX()+RandomFloatInRange(-16,16)",
+                                            "CursorY()+RandomFloatInRange(-16,16)",
+                                            "500",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "Animation",
+                                            "=",
+                                            "\"bulle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "IsPrimary",
+                                            "True",
+                                            "\"golle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "silenced.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
                         }
                       ]
                     }
@@ -12315,6 +14547,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Secondary",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -12377,7 +14610,6 @@
                           ]
                         },
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
