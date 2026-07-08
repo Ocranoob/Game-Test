@@ -907,7 +907,7 @@
     {
       "name": "Spread",
       "type": "number",
-      "value": 2
+      "value": 4
     }
   ],
   "layouts": [
@@ -1146,7 +1146,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.2530387740590778,
+        "zoomFactor": 1.8655255482571567,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1216,6 +1216,12 @@
             },
             {
               "name": "m4a4"
+            },
+            {
+              "name": "famas"
+            },
+            {
+              "name": "scar"
             }
           ]
         },
@@ -1379,6 +1385,12 @@
             },
             {
               "name": "m4a4"
+            },
+            {
+              "name": "famas"
+            },
+            {
+              "name": "scar"
             }
           ]
         },
@@ -3620,7 +3632,7 @@
           "persistentUuid": "96507820-11a4-4153-96f8-adc6243379e3",
           "width": 0,
           "x": 1728,
-          "y": -32,
+          "y": 0,
           "zOrder": 1052,
           "numberProperties": [],
           "stringProperties": [],
@@ -3686,7 +3698,7 @@
           "persistentUuid": "741b6438-bd82-481b-85ea-5c603507befa",
           "width": 0,
           "x": 1728,
-          "y": 0,
+          "y": -32,
           "zOrder": 1054,
           "numberProperties": [],
           "stringProperties": [],
@@ -3782,7 +3794,7 @@
           "persistentUuid": "5874001c-d8d9-4e78-ab63-57f97159a7a6",
           "width": 0,
           "x": 1728,
-          "y": 16,
+          "y": -16,
           "zOrder": 1060,
           "numberProperties": [],
           "stringProperties": [],
@@ -3961,6 +3973,38 @@
           "x": 1760,
           "y": -112,
           "zOrder": 1073,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "famas",
+          "persistentUuid": "66771388-fd43-4387-a68f-a737b0d2d1ca",
+          "width": 0,
+          "x": 1792,
+          "y": -96,
+          "zOrder": 1074,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "scar",
+          "persistentUuid": "211c8355-470e-4b17-9ecd-a7e5586e88c2",
+          "width": 0,
+          "x": 1760,
+          "y": -80,
+          "zOrder": 1075,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12247,6 +12291,256 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "famas",
+          "persistentUuid": "24789018-6cb9-4e18-b5d6-59e28b6a3a5e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 25
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 25
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 500
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 25
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 3
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "famas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/famas.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 8
+                          },
+                          {
+                            "x": 60,
+                            "y": 8
+                          },
+                          {
+                            "x": 60,
+                            "y": 27
+                          },
+                          {
+                            "x": 5,
+                            "y": 27
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "scar",
+          "persistentUuid": "e271612c-6fec-4298-8231-7ee82e1f5a33",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 40
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 30
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 420
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 30
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 3
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "scar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/scar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 7
+                          },
+                          {
+                            "x": 61,
+                            "y": 7
+                          },
+                          {
+                            "x": 61,
+                            "y": 26
+                          },
+                          {
+                            "x": 3,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -12417,6 +12711,12 @@
               },
               {
                 "objectName": "gs3g1"
+              },
+              {
+                "objectName": "m4a4"
+              },
+              {
+                "objectName": "famas"
               }
             ]
           },
@@ -12483,7 +12783,7 @@
             "objectName": "DefaultWeapon"
           },
           {
-            "objectName": "m4a4"
+            "objectName": "scar"
           }
         ]
       },
@@ -12616,6 +12916,15 @@
                     "=",
                     "64"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"rev\""
+                  ]
                 }
               ]
             },
@@ -12641,7 +12950,7 @@
                     "testext",
                     "Text",
                     "=",
-                    "ToString(SceneInstancesCount(bulle))+\"+\"+bulle.Damage+\"+\"+Enemies.HP"
+                    "ToString(SceneInstancesCount(bulle))+\"+\"+bulle.Damage+\"+\"+Enemies.HP+\"+\"+ToString(floor(Player.ObjectTimerElapsedTime(\"rev\")))"
                   ]
                 },
                 {
@@ -17755,350 +18064,6 @@
                                     "InvItemPrimary",
                                     "Animation",
                                     "=",
-                                    "\"winchester\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                  },
-                                  "parameters": [
-                                    "InvItemPrimary",
-                                    "Animation",
-                                    "=",
-                                    "\"xm1014\""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ZoomCamera"
-                              },
-                              "parameters": [
-                                "",
-                                "2",
-                                "\"Dark layer\"",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ZoomCamera"
-                              },
-                              "parameters": [
-                                "",
-                                "2",
-                                "",
-                                ""
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "colorB": 228,
-                              "colorG": 176,
-                              "colorR": 74,
-                              "creationTime": 0,
-                              "name": "Ammo",
-                              "source": "",
-                              "type": "BuiltinCommonInstructions::Group",
-                              "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "MouseButtonFromTextPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "\"Left\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "BuiltinCommonInstructions::Once"
-                                      },
-                                      "parameters": []
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "SetBooleanObjectVariable"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "IsReloading",
-                                        "False",
-                                        ""
-                                      ]
-                                    }
-                                  ],
-                                  "events": [
-                                    {
-                                      "folded": true,
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                          },
-                                          "parameters": [
-                                            "crosshair",
-                                            "Animation",
-                                            "=",
-                                            "\"crosshair golden\""
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "PC_Ammo",
-                                            "-",
-                                            "1"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "PlaySound"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "gunshot.mp3",
-                                            "",
-                                            "",
-                                            ""
-                                          ]
-                                        }
-                                      ],
-                                      "events": [
-                                        {
-                                          "type": "BuiltinCommonInstructions::Repeat",
-                                          "repeatExpression": "Player.PSpecial",
-                                          "conditions": [],
-                                          "actions": [
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::SetCooldownOp"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "=",
-                                                "0",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::FireTowardPosition"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "Player.X()",
-                                                "Player.Y()",
-                                                "bulle",
-                                                "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
-                                                "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
-                                                "500",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::SetCooldownOp"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "=",
-                                                "Player.PFR",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "bulle",
-                                                "Damage",
-                                                "=",
-                                                "Player.PD*2"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "folded": true,
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                          },
-                                          "parameters": [
-                                            "crosshair",
-                                            "Animation",
-                                            "=",
-                                            "\"crosshair\""
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "PC_Ammo",
-                                            "-",
-                                            "1"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "PlaySound"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "gunshot.mp3",
-                                            "",
-                                            "",
-                                            ""
-                                          ]
-                                        }
-                                      ],
-                                      "events": [
-                                        {
-                                          "type": "BuiltinCommonInstructions::Repeat",
-                                          "repeatExpression": "Player.PSpecial",
-                                          "conditions": [],
-                                          "actions": [
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::SetCooldownOp"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "=",
-                                                "0",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::FireTowardPosition"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "Player.X()",
-                                                "Player.Y()",
-                                                "bulle",
-                                                "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
-                                                "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
-                                                "500",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::SetCooldownOp"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "=",
-                                                "Player.PFR",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "bulle",
-                                                "Damage",
-                                                "=",
-                                                "Player.PD"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ],
-                              "parameters": []
-                            }
-                          ]
-                        },
-                        {
-                          "folded": true,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::Name"
-                              },
-                              "parameters": [
-                                "InvItemPrimary",
-                                "Animation",
-                                "!=",
-                                "\"empty\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Or"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                  },
-                                  "parameters": [
-                                    "InvItemPrimary",
-                                    "Animation",
-                                    "=",
                                     "\"gs3g1\""
                                   ]
                                 }
@@ -18502,6 +18467,350 @@
                                               "parameters": [
                                                 "bulle",
                                                 ""
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"winchester\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"xm1014\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "\"Dark layer\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Ammo",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "IsReloading",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "folded": true,
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair golden\""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "gunshot.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Repeat",
+                                          "repeatExpression": "Player.PSpecial",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "0",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::FireTowardPosition"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "bulle",
+                                                "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
+                                                "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
+                                                "500",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "Player.PFR",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "bulle",
+                                                "Damage",
+                                                "=",
+                                                "Player.PD*2"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "folded": true,
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                          },
+                                          "parameters": [
+                                            "crosshair",
+                                            "Animation",
+                                            "=",
+                                            "\"crosshair\""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "gunshot.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Repeat",
+                                          "repeatExpression": "Player.PSpecial",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "0",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::FireTowardPosition"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "bulle",
+                                                "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
+                                                "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
+                                                "500",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "Player.PFR",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "bulle",
+                                                "Damage",
+                                                "=",
+                                                "Player.PD"
                                               ]
                                             }
                                           ]
@@ -18994,6 +19303,1064 @@
                                                 "Damage",
                                                 "=",
                                                 "Player.PD*2"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"famas\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "\"Dark layer\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "folded": true,
+                              "name": "Mode Switch",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Right\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PMode",
+                                        "Toggle",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PMode",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "colorB": 228,
+                                      "colorG": 176,
+                                      "colorR": 74,
+                                      "creationTime": 0,
+                                      "name": "Ammo Burst",
+                                      "source": "",
+                                      "type": "BuiltinCommonInstructions::Group",
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "MouseButtonFromTextPressed"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "\"Left\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "NumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "PC_Ammo",
+                                                ">=",
+                                                "1"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "CompareObjectTimer"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "\"rev\"",
+                                                ">",
+                                                "1.1"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "0",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "PC_Ammo",
+                                                "-",
+                                                "1"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "1/Player.PFR",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::FireTowardPosition"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "bulle",
+                                                "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
+                                                "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
+                                                "500",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "gunshot.mp3",
+                                                "",
+                                                "",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "bulle",
+                                                "Damage",
+                                                "=",
+                                                "Player.PD"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ResetObjectTimer"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "\"rev\""
+                                              ]
+                                            }
+                                          ],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "NumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "PC_Ammo",
+                                                    ">=",
+                                                    "1"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "Wait"
+                                                  },
+                                                  "parameters": [
+                                                    "0.05"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::SetCooldownOp"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "=",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "PC_Ammo",
+                                                    "-",
+                                                    "1"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::SetCooldownOp"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "=",
+                                                    "1/Player.PFR",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "Player.X()",
+                                                    "Player.Y()",
+                                                    "bulle",
+                                                    "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
+                                                    "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
+                                                    "500",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "PlaySound"
+                                                  },
+                                                  "parameters": [
+                                                    "",
+                                                    "gunshot.mp3",
+                                                    "",
+                                                    "",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    "Damage",
+                                                    "=",
+                                                    "Player.PD"
+                                                  ]
+                                                }
+                                              ],
+                                              "events": [
+                                                {
+                                                  "type": "BuiltinCommonInstructions::Standard",
+                                                  "conditions": [
+                                                    {
+                                                      "type": {
+                                                        "value": "NumberObjectVariable"
+                                                      },
+                                                      "parameters": [
+                                                        "Player",
+                                                        "PC_Ammo",
+                                                        ">=",
+                                                        "1"
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "actions": [
+                                                    {
+                                                      "type": {
+                                                        "value": "Wait"
+                                                      },
+                                                      "parameters": [
+                                                        "0.05"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": {
+                                                        "value": "FireBullet::FireBullet::SetCooldownOp"
+                                                      },
+                                                      "parameters": [
+                                                        "Player",
+                                                        "FireBullet",
+                                                        "=",
+                                                        "0",
+                                                        ""
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": {
+                                                        "value": "SetNumberObjectVariable"
+                                                      },
+                                                      "parameters": [
+                                                        "Player",
+                                                        "PC_Ammo",
+                                                        "-",
+                                                        "1"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": {
+                                                        "value": "FireBullet::FireBullet::SetCooldownOp"
+                                                      },
+                                                      "parameters": [
+                                                        "Player",
+                                                        "FireBullet",
+                                                        "=",
+                                                        "1/Player.PFR",
+                                                        ""
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": {
+                                                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                                                      },
+                                                      "parameters": [
+                                                        "Player",
+                                                        "FireBullet",
+                                                        "Player.X()",
+                                                        "Player.Y()",
+                                                        "bulle",
+                                                        "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
+                                                        "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
+                                                        "500",
+                                                        ""
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": {
+                                                        "value": "PlaySound"
+                                                      },
+                                                      "parameters": [
+                                                        "",
+                                                        "gunshot.mp3",
+                                                        "",
+                                                        "",
+                                                        ""
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": {
+                                                        "value": "SetNumberObjectVariable"
+                                                      },
+                                                      "parameters": [
+                                                        "bulle",
+                                                        "Damage",
+                                                        "=",
+                                                        "Player.PD"
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "parameters": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PMode",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "colorB": 228,
+                                      "colorG": 176,
+                                      "colorR": 74,
+                                      "creationTime": 0,
+                                      "folded": true,
+                                      "name": "Ammo Auto",
+                                      "source": "",
+                                      "type": "BuiltinCommonInstructions::Group",
+                                      "events": [
+                                        {
+                                          "folded": true,
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "MouseButtonFromTextPressed"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "\"Left\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                ""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                                  },
+                                                  "parameters": [
+                                                    "crosshair",
+                                                    "Animation",
+                                                    "=",
+                                                    "\"crosshair golden\""
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "Player.X()",
+                                                    "Player.Y()",
+                                                    "bulle",
+                                                    "CursorX()",
+                                                    "CursorY()",
+                                                    "500",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "PC_Ammo",
+                                                    "-",
+                                                    "1"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "PlaySound"
+                                                  },
+                                                  "parameters": [
+                                                    "",
+                                                    "gunshot.mp3",
+                                                    "",
+                                                    "",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    "Damage",
+                                                    "=",
+                                                    "Player.PD*2"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                                  },
+                                                  "parameters": [
+                                                    "crosshair",
+                                                    "Animation",
+                                                    "=",
+                                                    "\"crosshair\""
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::FireTowardPosition"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "Player.X()",
+                                                    "Player.Y()",
+                                                    "bulle",
+                                                    "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
+                                                    "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
+                                                    "500",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "PC_Ammo",
+                                                    "-",
+                                                    "1"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "PlaySound"
+                                                  },
+                                                  "parameters": [
+                                                    "",
+                                                    "gunshot.mp3",
+                                                    "",
+                                                    "",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    "Damage",
+                                                    "=",
+                                                    "Player.PD"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "parameters": []
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"scar\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "\"Dark layer\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Ammo Burst",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PC_Ammo",
+                                        ">=",
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::SetCooldownOp"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "=",
+                                        "0",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "PC_Ammo",
+                                        "-",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::SetCooldownOp"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "=",
+                                        "1/Player.PFR",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "FireBullet::FireBullet::FireTowardPosition"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "FireBullet",
+                                        "Player.X()",
+                                        "Player.Y()",
+                                        "bulle",
+                                        "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
+                                        "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
+                                        "500",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "gunshot.mp3",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "bulle",
+                                        "Damage",
+                                        "=",
+                                        "Player.PD"
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "NumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            ">=",
+                                            "1"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "Wait"
+                                          },
+                                          "parameters": [
+                                            "0.05"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::SetCooldownOp"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "=",
+                                            "0",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "Player.X()",
+                                            "Player.Y()",
+                                            "bulle",
+                                            "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
+                                            "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
+                                            "500",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::SetCooldownOp"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "=",
+                                            "1/Player.PFR",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "gunshot.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "bulle",
+                                            "Damage",
+                                            "=",
+                                            "Player.PD"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "NumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "PC_Ammo",
+                                                ">=",
+                                                "1"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "Wait"
+                                              },
+                                              "parameters": [
+                                                "0.05"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "0",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::FireTowardPosition"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "bulle",
+                                                "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
+                                                "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
+                                                "500",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "PC_Ammo",
+                                                "-",
+                                                "1"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::SetCooldownOp"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                "=",
+                                                "1/Player.PFR",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "gunshot.mp3",
+                                                "",
+                                                "",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "bulle",
+                                                "Damage",
+                                                "=",
+                                                "Player.PD"
                                               ]
                                             }
                                           ]
