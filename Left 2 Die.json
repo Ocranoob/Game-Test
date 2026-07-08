@@ -92,7 +92,7 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/StartingPixelPlayer3.png",
+        "file": "assets/StartingPixelPlayer.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\StartingPixelPlayer.png",
@@ -100,7 +100,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/assets_StartingPixelZombie3.png",
+        "file": "assets/assets_StartingPixelZombie.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPixelZombie",
@@ -108,7 +108,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/bulle3.png",
+        "file": "assets/bulle2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "bulle",
@@ -116,7 +116,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/white circle3.png",
+        "file": "assets/white circle.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "white circle",
@@ -124,7 +124,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite4.png",
+        "file": "assets/NewTiledSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite2",
@@ -132,7 +132,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Metal Bar Border.png5.png",
+        "file": "assets/Metal Bar Border.png.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Metal Bar Border.png",
@@ -144,7 +144,7 @@
         }
       },
       {
-        "file": "assets/Pixel Red Fill Bar3.png",
+        "file": "assets/Pixel Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
         "name": "Pixel Red Fill Bar.png",
@@ -156,7 +156,7 @@
         }
       },
       {
-        "file": "assets/Pixel Yellow Fill Bar.png3.png",
+        "file": "assets/Pixel Yellow Fill Bar.png.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Pixel Yellow Fill Bar.png",
@@ -168,7 +168,7 @@
         }
       },
       {
-        "file": "assets/Pixel Red Fill Bar.png4.png",
+        "file": "assets/Pixel Red Fill Bar.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Pixel Red Fill Bar.png2",
@@ -176,7 +176,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Metal Bar Border.png6.png",
+        "file": "assets/Metal Bar Border.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Metal Bar Border.png2",
@@ -184,7 +184,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited.png3.png",
+        "file": "assets/8BitOperatorPlus8Regular_Edited.png.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "8BitOperatorPlus8Regular_Edited.png",
@@ -196,7 +196,7 @@
         }
       },
       {
-        "file": "assets/Border5.png",
+        "file": "assets/Border.png",
         "kind": "image",
         "metadata": "",
         "name": "Border.png",
@@ -208,7 +208,7 @@
         }
       },
       {
-        "file": "assets/Border6.png",
+        "file": "assets/Border2.png",
         "kind": "image",
         "metadata": "",
         "name": "Border2.png",
@@ -220,7 +220,7 @@
         }
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited3.fnt",
+        "file": "assets/8BitOperatorPlus8Regular_Edited.fnt",
         "kind": "bitmapFont",
         "metadata": "",
         "name": "8BitOperatorPlus8Regular_Edited.fnt",
@@ -231,7 +231,7 @@
         }
       },
       {
-        "file": "assets/Black Square Decorated Button_Hovered3.png",
+        "file": "assets/Black Square Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "Black Square Decorated Button_Hovered.png",
@@ -243,7 +243,7 @@
         }
       },
       {
-        "file": "assets/Black Square Decorated Button_Idle3.png",
+        "file": "assets/Black Square Decorated Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Black Square Decorated Button_Idle.png",
@@ -255,7 +255,7 @@
         }
       },
       {
-        "file": "assets/Black Square Decorated Button_Pressed3.png",
+        "file": "assets/Black Square Decorated Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "Black Square Decorated Button_Pressed.png",
@@ -267,7 +267,7 @@
         }
       },
       {
-        "file": "assets/mononoki-Regular3.ttf",
+        "file": "assets/mononoki-Regular.ttf",
         "kind": "font",
         "metadata": "",
         "name": "mononoki-Regular.ttf",
@@ -278,7 +278,7 @@
         }
       },
       {
-        "file": "assets/NewSprite6.png",
+        "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
@@ -286,7 +286,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite7.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
@@ -294,7 +294,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/FASS3.png",
+        "file": "assets/FASS.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "FASS",
@@ -302,7 +302,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/gray circle3.png",
+        "file": "assets/gray circle2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/gray circle2.png\"}",
         "name": "gray circle",
@@ -310,7 +310,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Pixel Blue Fill Bar.png4.png",
+        "file": "assets/Pixel Blue Fill Bar.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Pixel Blue Fill Bar.png2",
@@ -318,7 +318,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Kenney Pixel3.ttf",
+        "file": "assets/Kenney Pixel.ttf",
         "kind": "font",
         "metadata": "",
         "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
@@ -329,7 +329,7 @@
         }
       },
       {
-        "file": "assets/barrier6.png",
+        "file": "assets/barrier2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "barrier2",
@@ -337,7 +337,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Button8.png",
+        "file": "assets/Button6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Button6",
@@ -345,7 +345,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Rounded Square Red Fill Bar3.png",
+        "file": "assets/Rounded Square Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Rounded Square Red Fill Bar.png",
@@ -357,7 +357,7 @@
         }
       },
       {
-        "file": "assets/Rounded Square Transparent Border3.png",
+        "file": "assets/Rounded Square Transparent Border.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Rounded Square Transparent Border.png",
@@ -369,7 +369,7 @@
         }
       },
       {
-        "file": "assets/Rounded Square Yellow Fill Bar3.png",
+        "file": "assets/Rounded Square Yellow Fill Bar.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Rounded Square Yellow Fill Bar.png",
@@ -381,7 +381,7 @@
         }
       },
       {
-        "file": "assets/bandit5.png",
+        "file": "assets/bandit2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "bandit2",
@@ -389,7 +389,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/solider5.png",
+        "file": "assets/solider2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "solider2",
@@ -405,7 +405,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/crosshair3.png",
+        "file": "assets/crosshair.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "crosshair",
@@ -413,7 +413,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/crosshair golden5.png",
+        "file": "assets/crosshair golden.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "crosshair golden2",
@@ -421,7 +421,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/inventoryslot3.png",
+        "file": "assets/inventoryslot.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "inventoryslot",
@@ -429,7 +429,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/inventoryslotselect3.png",
+        "file": "assets/inventoryslotselect.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "inventoryslotselect",
@@ -485,7 +485,7 @@
         }
       },
       {
-        "file": "assets/golle2.png",
+        "file": "assets/golle.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "golle",
@@ -493,7 +493,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/night2.png",
+        "file": "assets/night.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "night",
@@ -525,7 +525,7 @@
         }
       },
       {
-        "file": "assets/TX Tileset Grass2.png",
+        "file": "assets/TX Tileset Grass.png",
         "kind": "image",
         "metadata": "",
         "name": "TX Tileset Grass.png",
@@ -537,7 +537,7 @@
         }
       },
       {
-        "file": "assets/TX Props2.png",
+        "file": "assets/TX Props.png",
         "kind": "image",
         "metadata": "",
         "name": "TX Props.png",
@@ -549,7 +549,7 @@
         }
       },
       {
-        "file": "assets/empty6.png",
+        "file": "assets/empty4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/empty4.png\"}",
         "name": "empty",
@@ -557,7 +557,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/pipe2.png",
+        "file": "assets/pipe.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "pipe",
@@ -565,7 +565,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/inventoryslotlong3.png",
+        "file": "assets/inventoryslotlong2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/inventoryslotlong2.png\"}",
         "name": "inventoryslotlong",
@@ -573,7 +573,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/inventoryslotselectlong3.png",
+        "file": "assets/inventoryslotselectlong2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/inventoryslotselectlong2.png\"}",
         "name": "inventoryslotselectlong",
@@ -611,7 +611,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/shadow2.png",
+        "file": "assets/shadow.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "shadow",
@@ -622,7 +622,7 @@
         "file": "assets/machete.png",
         "kind": "image",
         "metadata": "",
-        "name": "machete.png",
+        "name": "assets/machete.png",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -685,130 +685,130 @@
         "userAdded": false
       },
       {
-        "file": "famas.png",
+        "file": "assets/famas.png",
         "kind": "image",
         "metadata": "",
-        "name": "famas.png",
+        "name": "assets/famas.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "m4a4.png",
+        "file": "assets/m4a4.png",
         "kind": "image",
         "metadata": "",
-        "name": "m4a4.png",
+        "name": "assets/m4a4.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "scar.png",
+        "file": "assets/scar.png",
         "kind": "image",
         "metadata": "",
-        "name": "scar.png",
+        "name": "assets/scar.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "xm1014.png",
+        "file": "assets/xm1014.png",
         "kind": "image",
         "metadata": "",
-        "name": "xm1014.png",
+        "name": "assets/xm1014.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "winchester.png",
+        "file": "assets/winchester.png",
         "kind": "image",
         "metadata": "",
-        "name": "winchester.png",
+        "name": "assets/winchester.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "sawedoff.png",
+        "file": "assets/sawedoff.png",
         "kind": "image",
         "metadata": "",
-        "name": "sawedoff.png",
+        "name": "assets/sawedoff.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "r8rel.png",
+        "file": "assets/r8rel.png",
         "kind": "image",
         "metadata": "",
-        "name": "r8rel.png",
+        "name": "assets/r8rel.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "fiveseven.png",
+        "file": "assets/fiveseven.png",
         "kind": "image",
         "metadata": "",
-        "name": "fiveseven.png",
+        "name": "assets/fiveseven.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "uzi.png",
+        "file": "assets/uzi.png",
         "kind": "image",
         "metadata": "",
-        "name": "uzi.png",
+        "name": "assets/uzi.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "ppbizon.png",
+        "file": "assets/ppbizon.png",
         "kind": "image",
         "metadata": "",
-        "name": "ppbizon.png",
+        "name": "assets/ppbizon.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "p90.png",
+        "file": "assets/p90.png",
         "kind": "image",
         "metadata": "",
-        "name": "p90.png",
+        "name": "assets/p90.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "mac10.png",
+        "file": "assets/mac10.png",
         "kind": "image",
         "metadata": "",
-        "name": "mac10.png",
+        "name": "assets/mac10.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "krissvector.png",
+        "file": "assets/krissvector.png",
         "kind": "image",
         "metadata": "",
-        "name": "krissvector.png",
+        "name": "assets/krissvector.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "kmsmg.png",
+        "file": "assets/kmsmg.png",
         "kind": "image",
         "metadata": "",
-        "name": "kmsmg.png",
+        "name": "assets/kmsmg.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "mps5d.png",
+        "file": "assets/mps5d.png",
         "kind": "image",
         "metadata": "",
-        "name": "mps5d.png",
+        "name": "assets/mps5d.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "grenlaun.png",
+        "file": "assets/grenlaun.png",
         "kind": "image",
         "metadata": "",
-        "name": "grenlaun.png",
+        "name": "assets/grenlaun.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -853,7 +853,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/awp2.png",
+        "file": "assets/awp.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "awp2",
@@ -861,10 +861,10 @@
         "userAdded": false
       },
       {
-        "file": "awp-bolt-pull.mp3",
+        "file": "assets/awp-bolt-pull.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "awp-bolt-pull.mp3",
+        "name": "assets/awp-bolt-pull.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -879,10 +879,10 @@
         "userAdded": false
       },
       {
-        "file": "spas12.png",
+        "file": "assets/spas12.png",
         "kind": "image",
         "metadata": "",
-        "name": "spas12.png",
+        "name": "assets/spas12.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -1146,7 +1146,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.3841198046307854,
+        "zoomFactor": 1.479039586175847,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1210,6 +1210,9 @@
             },
             {
               "name": "spas12"
+            },
+            {
+              "name": "gs3g1"
             }
           ]
         },
@@ -1251,6 +1254,12 @@
             },
             {
               "name": "kmsmg"
+            },
+            {
+              "name": "mac10"
+            },
+            {
+              "name": "p90"
             }
           ]
         },
@@ -1355,6 +1364,15 @@
             },
             {
               "name": "spas12"
+            },
+            {
+              "name": "mac10"
+            },
+            {
+              "name": "p90"
+            },
+            {
+              "name": "gs3g1"
             }
           ]
         },
@@ -1386,12 +1404,12 @@
       ],
       "variables": [
         {
-          "name": "HitY",
+          "name": "HitYComms",
           "type": "number",
           "value": 0
         },
         {
-          "name": "HitX",
+          "name": "HitXComms",
           "type": "number",
           "value": 0
         },
@@ -1402,6 +1420,26 @@
         },
         {
           "name": "Yfl",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "HitXWall",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "HitYWall",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "HitXEnemies",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "HitYEnemies",
           "type": "number",
           "value": 0
         }
@@ -3690,7 +3728,7 @@
           "persistentUuid": "6a7c3ddc-44ff-472e-8c59-14ac7f2ddc2c",
           "width": 0,
           "x": 1536,
-          "y": -144,
+          "y": -112,
           "zOrder": 1057,
           "numberProperties": [],
           "stringProperties": [],
@@ -3787,7 +3825,7 @@
           "persistentUuid": "e31c67c1-3d51-464d-89e8-a41d22bc67be",
           "width": 0,
           "x": 1536,
-          "y": -112,
+          "y": -80,
           "zOrder": 1063,
           "numberProperties": [],
           "stringProperties": [],
@@ -3837,6 +3875,70 @@
           "x": 1792,
           "y": -160,
           "zOrder": 1068,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "kmsmg",
+          "persistentUuid": "63241999-ac49-4f7f-8e96-4eef1a3263dd",
+          "width": 0,
+          "x": 1536,
+          "y": -144,
+          "zOrder": 1069,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "p90",
+          "persistentUuid": "711ffc34-1284-4270-b656-df51ab06bc24",
+          "width": 0,
+          "x": 1504,
+          "y": -176,
+          "zOrder": 1070,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mac10",
+          "persistentUuid": "5b24549d-73e8-4909-9aff-f1a077d0e1ec",
+          "width": 0,
+          "x": 1504,
+          "y": -64,
+          "zOrder": 1071,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "gs3g1",
+          "persistentUuid": "71c3f135-023d-4cd4-b2b5-98d39e80d4c4",
+          "width": 0,
+          "x": 1792,
+          "y": -128,
+          "zOrder": 1072,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6369,7 +6471,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "famas.png",
+                      "image": "assets/famas.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6417,7 +6519,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "m4a4.png",
+                      "image": "assets/m4a4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6465,7 +6567,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "scar.png",
+                      "image": "assets/scar.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6513,7 +6615,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "xm1014.png",
+                      "image": "assets/xm1014.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6561,7 +6663,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "winchester.png",
+                      "image": "assets/winchester.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6609,7 +6711,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "sawedoff.png",
+                      "image": "assets/sawedoff.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6804,7 +6906,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "grenlaun.png",
+                      "image": "assets/grenlaun.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6949,7 +7051,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spas12.png",
+                      "image": "assets/spas12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7391,7 +7493,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "r8rel.png",
+                      "image": "assets/r8rel.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7439,7 +7541,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "fiveseven.png",
+                      "image": "assets/fiveseven.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7487,7 +7589,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "uzi.png",
+                      "image": "assets/uzi.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7535,7 +7637,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ppbizon.png",
+                      "image": "assets/ppbizon.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7583,7 +7685,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "p90.png",
+                      "image": "assets/p90.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7631,7 +7733,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "mac10.png",
+                      "image": "assets/mac10.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7679,7 +7781,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "krissvector.png",
+                      "image": "assets/krissvector.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7727,7 +7829,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "kmsmg.png",
+                      "image": "assets/kmsmg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7775,7 +7877,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "mps5d.png",
+                      "image": "assets/mps5d.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7933,7 +8035,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "machete.png",
+                      "image": "assets/machete.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9587,7 +9689,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "machete.png",
+                      "image": "assets/machete.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10215,7 +10317,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "r8rel.png",
+                      "image": "assets/r8rel.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10340,7 +10442,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "fiveseven.png",
+                      "image": "assets/fiveseven.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10431,7 +10533,7 @@
             {
               "name": "Special",
               "type": "number",
-              "value": 0
+              "value": 1.1
             }
           ],
           "effects": [
@@ -10465,7 +10567,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "uzi.png",
+                      "image": "assets/uzi.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10590,7 +10692,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ppbizon.png",
+                      "image": "assets/ppbizon.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10715,7 +10817,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "sawedoff.png",
+                      "image": "assets/sawedoff.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10840,7 +10942,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "winchester.png",
+                      "image": "assets/winchester.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11008,7 +11110,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "xm1014.png",
+                      "image": "assets/xm1014.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11094,7 +11196,7 @@
             {
               "name": "Special",
               "type": "number",
-              "value": 0
+              "value": 1.25
             },
             {
               "name": "Element",
@@ -11133,7 +11235,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "mps5d.png",
+                      "image": "assets/mps5d.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11224,7 +11326,7 @@
             {
               "name": "Special",
               "type": "number",
-              "value": 0
+              "value": 1.1
             }
           ],
           "effects": [
@@ -11258,7 +11360,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "kmsmg.png",
+                      "image": "assets/kmsmg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11383,7 +11485,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spas12.png",
+                      "image": "assets/spas12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11508,7 +11610,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spas12.png",
+                      "image": "assets/spas12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11538,6 +11640,506 @@
                           {
                             "x": 2,
                             "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "krissvector",
+          "persistentUuid": "fd238701-f1a3-4ada-8353-a082c979121a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 15
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 30
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 500
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 30
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 5
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "krissvector",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/krissvector.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 7
+                          },
+                          {
+                            "x": 52,
+                            "y": 7
+                          },
+                          {
+                            "x": 52,
+                            "y": 30
+                          },
+                          {
+                            "x": 10,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "p90",
+          "persistentUuid": "07930a2f-4390-48ae-9e01-5a67bb63f724",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 8
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 50
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 300
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 50
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 5
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "p90",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/p90.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 9
+                          },
+                          {
+                            "x": 51,
+                            "y": 9
+                          },
+                          {
+                            "x": 51,
+                            "y": 24
+                          },
+                          {
+                            "x": 13,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "mac10",
+          "persistentUuid": "a12045f1-2bbf-4a4d-9371-94603a706e3f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 15
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 400
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 1.25
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "mac10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/mac10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 8
+                          },
+                          {
+                            "x": 47,
+                            "y": 8
+                          },
+                          {
+                            "x": 47,
+                            "y": 29
+                          },
+                          {
+                            "x": 20,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "gs3g1",
+          "persistentUuid": "2577b9bc-1d67-4890-accd-bcd05f4f3730",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 95
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 12
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 180
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 12
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 5
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "gs3g1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "gs3g1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 6
+                          },
+                          {
+                            "x": 74,
+                            "y": 6
+                          },
+                          {
+                            "x": 74,
+                            "y": 25
+                          },
+                          {
+                            "x": 0,
+                            "y": 25
                           }
                         ]
                       ]
@@ -11705,6 +12307,18 @@
               },
               {
                 "objectName": "spas12"
+              },
+              {
+                "objectName": "krissvector"
+              },
+              {
+                "objectName": "p90"
+              },
+              {
+                "objectName": "mac10"
+              },
+              {
+                "objectName": "gs3g1"
               }
             ]
           },
@@ -12776,8 +13390,8 @@
                                     "Normal_Enemies.Y()",
                                     "Normal_Enemies.Angle()",
                                     "30",
-                                    "HitX",
-                                    "HitY",
+                                    "HitXComms",
+                                    "HitYComms",
                                     ""
                                   ]
                                 }
@@ -16727,6 +17341,7 @@
                           "actions": [],
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -16771,6 +17386,7 @@
                                   "colorG": 176,
                                   "colorR": 74,
                                   "creationTime": 0,
+                                  "folded": true,
                                   "name": "Ammo",
                                   "source": "",
                                   "type": "BuiltinCommonInstructions::Group",
@@ -16797,6 +17413,7 @@
                                       "actions": [],
                                       "events": [
                                         {
+                                          "folded": true,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -16830,74 +17447,126 @@
                                                 "Player.Y()",
                                                 "Player.Angle()",
                                                 "32768",
-                                                "HitX",
-                                                "HitY",
+                                                "HitXEnemies",
+                                                "HitYEnemies",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Raycast"
+                                              },
+                                              "parameters": [
+                                                "barrier",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "Player.Angle()",
+                                                "32768",
+                                                "HitXWall",
+                                                "HitYWall",
                                                 ""
                                               ]
                                             }
                                           ],
-                                          "actions": [
+                                          "actions": [],
+                                          "events": [
                                             {
-                                              "type": {
-                                                "value": "PlaySound"
-                                              },
-                                              "parameters": [
-                                                "",
-                                                "gunshot.mp3",
-                                                "",
-                                                "",
-                                                ""
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    ">",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Enemies",
+                                                    "HP",
+                                                    "-",
+                                                    "Player.PD*8"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
                                               ]
                                             },
                                             {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "PC_Ammo",
-                                                "-",
-                                                "1"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Enemies",
-                                                "HP",
-                                                "-",
-                                                "Player.PD*8"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::Fire"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "0",
-                                                "0",
-                                                "bulle",
-                                                "Player.Angle()",
-                                                "0",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "Delete"
-                                              },
-                                              "parameters": [
-                                                "bulle",
-                                                ""
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    "<=",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
                                               ]
                                             }
                                           ]
                                         },
                                         {
+                                          "folded": true,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -16931,8 +17600,119 @@
                                                 "Player.Y()",
                                                 "Player.Angle()",
                                                 "32768",
-                                                "HitX",
-                                                "HitY",
+                                                "HitXComms",
+                                                "HitYComms",
+                                                ""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    ">",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Enemies",
+                                                    "HP",
+                                                    "-",
+                                                    "Player.PD"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    "<=",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
                                                 ""
                                               ]
                                             }
@@ -16959,17 +17739,6 @@
                                                 "",
                                                 "",
                                                 ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Enemies",
-                                                "HP",
-                                                "-",
-                                                "Player.PD"
                                               ]
                                             },
                                             {
@@ -17107,6 +17876,7 @@
                                       "actions": [],
                                       "events": [
                                         {
+                                          "folded": true,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -17140,74 +17910,126 @@
                                                 "Player.Y()",
                                                 "Player.Angle()",
                                                 "32768",
-                                                "HitX",
-                                                "HitY",
+                                                "HitXEnemies",
+                                                "HitYEnemies",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Raycast"
+                                              },
+                                              "parameters": [
+                                                "barrier",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "Player.Angle()",
+                                                "32768",
+                                                "HitXWall",
+                                                "HitYWall",
                                                 ""
                                               ]
                                             }
                                           ],
-                                          "actions": [
+                                          "actions": [],
+                                          "events": [
                                             {
-                                              "type": {
-                                                "value": "PlaySound"
-                                              },
-                                              "parameters": [
-                                                "",
-                                                "gunshot.mp3",
-                                                "",
-                                                "",
-                                                ""
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    ">",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Enemies",
+                                                    "HP",
+                                                    "-",
+                                                    "Player.PD*2"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
                                               ]
                                             },
                                             {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "PC_Ammo",
-                                                "-",
-                                                "1"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Enemies",
-                                                "HP",
-                                                "-",
-                                                "Player.PD*2"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "FireBullet::FireBullet::Fire"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "FireBullet",
-                                                "0",
-                                                "0",
-                                                "bulle",
-                                                "Player.Angle()",
-                                                "0",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "Delete"
-                                              },
-                                              "parameters": [
-                                                "bulle",
-                                                ""
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    "<=",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
                                               ]
                                             }
                                           ]
                                         },
                                         {
+                                          "folded": true,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -17241,8 +18063,119 @@
                                                 "Player.Y()",
                                                 "Player.Angle()",
                                                 "32768",
-                                                "HitX",
-                                                "HitY",
+                                                "HitXComms",
+                                                "HitYComms",
+                                                ""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    ">",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Enemies",
+                                                    "HP",
+                                                    "-",
+                                                    "Player.PD"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    "<=",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
                                                 ""
                                               ]
                                             }
@@ -17269,17 +18202,6 @@
                                                 "",
                                                 "",
                                                 ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetNumberObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Enemies",
-                                                "HP",
-                                                "-",
-                                                "Player.PD"
                                               ]
                                             },
                                             {
@@ -17724,7 +18646,6 @@
                           ]
                         },
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -17814,26 +18735,6 @@
                                       "conditions": [
                                         {
                                           "type": {
-                                            "value": "MouseButtonFromTextPressed"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "\"Left\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                          },
-                                          "parameters": [
-                                            "crosshair",
-                                            "Animation",
-                                            "=",
-                                            "\"crosshair golden\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
                                             "value": "FireBullet::FireBullet::IsReadyToShoot"
                                           },
                                           "parameters": [
@@ -17844,17 +18745,11 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "Raycast"
+                                            "value": "MouseButtonFromTextPressed"
                                           },
                                           "parameters": [
-                                            "Enemies",
-                                            "Player.X()",
-                                            "Player.Y()",
-                                            "Player.Angle()",
-                                            "32768",
-                                            "HitX",
-                                            "HitY",
-                                            ""
+                                            "",
+                                            "\"Left\""
                                           ]
                                         }
                                       ],
@@ -17884,17 +18779,6 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Enemies",
-                                            "HP",
-                                            "-",
-                                            "Player.PD*2"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
                                             "value": "FireBullet::FireBullet::Fire"
                                           },
                                           "parameters": [
@@ -17914,117 +18798,290 @@
                                           },
                                           "parameters": [
                                             "bulle",
-                                            ""
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "MouseButtonFromTextPressed"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "\"Left\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                          },
-                                          "parameters": [
-                                            "crosshair",
-                                            "Animation",
-                                            "=",
-                                            "\"crosshair\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Raycast"
-                                          },
-                                          "parameters": [
-                                            "Enemies",
-                                            "Player.X()",
-                                            "Player.Y()",
-                                            "Player.Angle()",
-                                            "32768",
-                                            "HitX",
-                                            "HitY",
                                             ""
                                           ]
                                         }
                                       ],
-                                      "actions": [
+                                      "events": [
                                         {
-                                          "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "PC_Ammo",
-                                            "-",
-                                            "1"
+                                          "folded": true,
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                              },
+                                              "parameters": [
+                                                "crosshair",
+                                                "Animation",
+                                                "=",
+                                                "\"crosshair golden\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Raycast"
+                                              },
+                                              "parameters": [
+                                                "Enemies",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "Player.Angle()",
+                                                "32768",
+                                                "HitXEnemies",
+                                                "HitYEnemies",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Raycast"
+                                              },
+                                              "parameters": [
+                                                "barrier",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "Player.Angle()",
+                                                "32768",
+                                                "HitXWall",
+                                                "HitYWall",
+                                                ""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    ">",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Enemies",
+                                                    "HP",
+                                                    "-",
+                                                    "Player.PD*2"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    "<=",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            }
                                           ]
                                         },
                                         {
-                                          "type": {
-                                            "value": "PlaySound"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "gunshot.mp3",
-                                            "",
-                                            "",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Enemies",
-                                            "HP",
-                                            "-",
-                                            "Player.PD"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "FireBullet::FireBullet::Fire"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "FireBullet",
-                                            "0",
-                                            "0",
-                                            "bulle",
-                                            "Player.Angle()",
-                                            "0",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Delete"
-                                          },
-                                          "parameters": [
-                                            "bulle",
-                                            ""
+                                          "folded": true,
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                              },
+                                              "parameters": [
+                                                "Player",
+                                                "FireBullet",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                              },
+                                              "parameters": [
+                                                "crosshair",
+                                                "Animation",
+                                                "=",
+                                                "\"crosshair\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Raycast"
+                                              },
+                                              "parameters": [
+                                                "Enemies",
+                                                "Player.X()",
+                                                "Player.Y()",
+                                                "Player.Angle()",
+                                                "32768",
+                                                "HitXComms",
+                                                "HitYComms",
+                                                ""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    ">",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Enemies",
+                                                    "HP",
+                                                    "-",
+                                                    "Player.PD"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                                  },
+                                                  "parameters": [
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXWall,HitYWall)",
+                                                    "<=",
+                                                    "DistanceBetweenPositions(Player.X(),Player.Y(),HitXEnemies,HitYEnemies)"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "FireBullet::FireBullet::Fire"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "FireBullet",
+                                                    "0",
+                                                    "0",
+                                                    "bulle",
+                                                    "Player.Angle()",
+                                                    "0",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "bulle",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            }
                                           ]
                                         }
                                       ]
@@ -21291,7 +22348,7 @@
                                       },
                                       "parameters": [
                                         "",
-                                        "awp-bolt-pull.mp3",
+                                        "assets/awp-bolt-pull.mp3",
                                         "",
                                         "",
                                         ""
@@ -21871,8 +22928,8 @@
                                         "Player.Y()",
                                         "Player.Angle()",
                                         "64",
-                                        "HitX",
-                                        "HitY",
+                                        "HitXComms",
+                                        "HitYComms",
                                         ""
                                       ]
                                     }
@@ -22047,8 +23104,8 @@
                                         "Player.Y()",
                                         "Player.Angle()",
                                         "64",
-                                        "HitX",
-                                        "HitY",
+                                        "HitXComms",
+                                        "HitYComms",
                                         ""
                                       ]
                                     },
@@ -22090,8 +23147,8 @@
                                         "Player.Y()",
                                         "Player.Angle()",
                                         "64",
-                                        "HitX",
-                                        "HitY",
+                                        "HitXComms",
+                                        "HitYComms",
                                         ""
                                       ]
                                     }
@@ -22230,8 +23287,8 @@
                                         "Player.Y()",
                                         "Player.Angle()",
                                         "64",
-                                        "HitX",
-                                        "HitY",
+                                        "HitXComms",
+                                        "HitYComms",
                                         ""
                                       ]
                                     }
@@ -22471,8 +23528,8 @@
                                         "Player.Y()",
                                         "Player.Angle()",
                                         "64",
-                                        "HitX",
-                                        "HitY",
+                                        "HitXComms",
+                                        "HitYComms",
                                         ""
                                       ]
                                     }
@@ -22651,8 +23708,8 @@
                             "Player.Y()",
                             "CursorX()",
                             "CursorY()",
-                            "HitX",
-                            "HitY",
+                            "HitXComms",
+                            "HitYComms",
                             ""
                           ]
                         }
