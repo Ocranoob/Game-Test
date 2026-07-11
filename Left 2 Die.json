@@ -12,16 +12,16 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "Laef.Tu.Dai",
     "pixelsRounding": false,
     "projectUuid": "55c7db3a-675f-4d67-9ca0-12679b1348ec",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-top-down-pixel",
-    "version": "Alpha.2.0",
+    "version": "Alpha.1.7",
     "name": "Left 2 Die",
-    "description": "",
-    "author": "",
+    "description": "Playing as Nick, he finds himself in a zombie apocalypse, encounter with patient zero, and revealing the truth behind it all.",
+    "author": "Namaewa",
     "windowWidth": 1280,
     "windowHeight": 720,
     "latestCompilationDirectory": "",
@@ -77,8 +77,12 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "pkswDzzUpzZN0T3UbblAq6HVfkI3"
+    ],
+    "authorUsernames": [
+      "Ocranoob"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -337,14 +341,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Button6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "Button6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Rounded Square Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -483,14 +479,6 @@
           "identifier": "https://project-resources.gdevelop.io/fc3bb6a1-e55b-471f-b85a-d73fcb53ac78/resources/49dcd68387a26266511f4e182a58c5417ce347bc61064dfe8d5512c784804e58-deagle.png",
           "name": "cloud-project-resource"
         }
-      },
-      {
-        "file": "assets/golle.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "golle",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "file": "assets/night.png",
@@ -885,6 +873,102 @@
         "name": "assets/spas12.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/bgtheme.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bgtheme.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/rpg_round.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "rpg_round",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Explosion_gas_circle10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion_gas_circle10.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -933,7 +1017,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5468750000000021,
+        "zoomFactor": 0.21607397323875588,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -945,32 +1029,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 720,
           "keepRatio": true,
-          "layer": "",
-          "name": "NewPanelSprite",
-          "persistentUuid": "a72171f7-7695-419c-ad31-667fb9f75e21",
-          "width": 544,
-          "x": 64,
-          "y": 256,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewPanelSprite",
-          "persistentUuid": "8a8eb838-7443-49a0-b6c8-73512c27ec77",
-          "width": 544,
-          "x": 64,
-          "y": 368,
-          "zOrder": 2,
+          "layer": "Ease",
+          "name": "BGIn",
+          "persistentUuid": "7bfbf47f-970f-41bd-a883-4aa8174e6c79",
+          "width": 1296,
+          "x": -16,
+          "y": 0,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -978,28 +1045,72 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "bottomMargin": 30,
-          "height": 16,
-          "leftMargin": 30,
-          "name": "NewPanelSprite",
-          "persistentUuid": "f167fa25-c932-4f7c-b406-a6a177128044",
-          "rightMargin": 30,
-          "texture": "Button6",
-          "tiled": true,
-          "topMargin": 30,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 16,
+          "name": "BGIn",
+          "persistentUuid": "7403ed73-6678-47fd-b252-c01d5c431abe",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bgtheme",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/bgtheme.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1919,
+                            "y": 0
+                          },
+                          {
+                            "x": 1919,
+                            "y": 1079
+                          },
+                          {
+                            "x": 0,
+                            "y": 1079
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewPanelSprite"
+            "objectName": "BGIn"
           }
         ]
       },
@@ -1009,21 +1120,9 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "SceneJustBegins"
               },
               "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "NewPanelSprite",
-                "",
-                "",
                 ""
               ]
             }
@@ -1031,12 +1130,28 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "",
-                "\"Game Scene\"",
-                ""
+                "BGIn",
+                "\"ease\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "BGIn",
+                "Opacity",
+                "=",
+                "255-255*(TimerElapsedTime(\"ease\")/3)"
               ]
             }
           ]
@@ -1107,12 +1222,74 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Ease",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
         },
         {
           "name": "Opacity",
@@ -1121,6 +1298,10 @@
         {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     },
@@ -1146,7 +1327,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.8655255482571567,
+        "zoomFactor": 0.6244537826600473,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1222,6 +1403,12 @@
             },
             {
               "name": "scar"
+            },
+            {
+              "name": "rpg"
+            },
+            {
+              "name": "grenlaun"
             }
           ]
         },
@@ -1269,6 +1456,9 @@
             },
             {
               "name": "p90"
+            },
+            {
+              "name": "krissvector"
             }
           ]
         },
@@ -1391,6 +1581,15 @@
             },
             {
               "name": "scar"
+            },
+            {
+              "name": "krissvector"
+            },
+            {
+              "name": "rpg"
+            },
+            {
+              "name": "grenlaun"
             }
           ]
         },
@@ -1423,41 +1622,49 @@
       "variables": [
         {
           "name": "HitYComms",
+          "persistentUuid": "600dd6e4-168a-4741-95b7-80250617ae39",
           "type": "number",
           "value": 0
         },
         {
           "name": "HitXComms",
+          "persistentUuid": "36531e43-6877-4241-8baf-f489b11598f3",
           "type": "number",
           "value": 0
         },
         {
           "name": "Xfl",
+          "persistentUuid": "88a34832-22ea-4a43-8318-8db20211ca78",
           "type": "number",
           "value": 0
         },
         {
           "name": "Yfl",
+          "persistentUuid": "ba5cd678-9622-4d11-b033-24a61a57bd2e",
           "type": "number",
           "value": 0
         },
         {
           "name": "HitXWall",
+          "persistentUuid": "3e9db350-09d5-4cbe-a1ef-5f32b5d2d955",
           "type": "number",
           "value": 0
         },
         {
           "name": "HitYWall",
+          "persistentUuid": "353c70b9-7208-4033-bc45-85c4e12b96f1",
           "type": "number",
           "value": 0
         },
         {
           "name": "HitXEnemies",
+          "persistentUuid": "aa640395-8b7d-4629-b1e4-87bd3fb4e13f",
           "type": "number",
           "value": 0
         },
         {
           "name": "HitYEnemies",
+          "persistentUuid": "74c23aad-66eb-4e33-afcc-ffd666bca6a5",
           "type": "number",
           "value": 0
         }
@@ -2899,23 +3106,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "barrier",
-          "persistentUuid": "02eda21e-62c1-4e71-aae7-10f49b5697fe",
-          "width": 32,
-          "x": -16,
-          "y": -24,
-          "zOrder": 1029,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 112,
           "keepRatio": true,
           "layer": "",
@@ -3209,8 +3399,8 @@
           "name": "ak47",
           "persistentUuid": "fccca331-1014-4f27-b580-ca4e26882b13",
           "width": 0,
-          "x": 1728,
-          "y": -80,
+          "x": 1760,
+          "y": -144,
           "zOrder": 1031,
           "numberProperties": [],
           "stringProperties": [],
@@ -3273,8 +3463,8 @@
           "name": "aug",
           "persistentUuid": "3a4f4bbf-129e-41bb-b297-bf9a88c33d9c",
           "width": 0,
-          "x": 1728,
-          "y": -96,
+          "x": 1760,
+          "y": -64,
           "zOrder": 1035,
           "numberProperties": [],
           "stringProperties": [],
@@ -3615,8 +3805,8 @@
           "name": "m4a1s",
           "persistentUuid": "e3b099c3-83a6-4f9b-a55c-6fbcc307a07e",
           "width": 0,
-          "x": 1728,
-          "y": -128,
+          "x": 1760,
+          "y": -160,
           "zOrder": 1051,
           "numberProperties": [],
           "stringProperties": [],
@@ -3631,8 +3821,8 @@
           "name": "m249",
           "persistentUuid": "96507820-11a4-4153-96f8-adc6243379e3",
           "width": 0,
-          "x": 1728,
-          "y": 0,
+          "x": 1760,
+          "y": -80,
           "zOrder": 1052,
           "numberProperties": [],
           "stringProperties": [],
@@ -3647,8 +3837,8 @@
           "name": "awp",
           "persistentUuid": "0b64f2e0-3dce-47ea-bb20-eadbe0b3e530",
           "width": 0,
-          "x": 1728,
-          "y": -144,
+          "x": 1856,
+          "y": -128,
           "zOrder": 1053,
           "numberProperties": [],
           "stringProperties": [],
@@ -3697,8 +3887,8 @@
           "name": "scout",
           "persistentUuid": "741b6438-bd82-481b-85ea-5c603507befa",
           "width": 0,
-          "x": 1728,
-          "y": -32,
+          "x": 1856,
+          "y": -144,
           "zOrder": 1054,
           "numberProperties": [],
           "stringProperties": [],
@@ -3746,7 +3936,7 @@
           "persistentUuid": "6a7c3ddc-44ff-472e-8c59-14ac7f2ddc2c",
           "width": 0,
           "x": 1536,
-          "y": -112,
+          "y": -16,
           "zOrder": 1057,
           "numberProperties": [],
           "stringProperties": [],
@@ -3777,8 +3967,8 @@
           "name": "sawedoff",
           "persistentUuid": "b1992803-1c6e-4258-b820-56f7810e7c78",
           "width": 0,
-          "x": 1728,
-          "y": -48,
+          "x": 1952,
+          "y": -112,
           "zOrder": 1059,
           "numberProperties": [],
           "stringProperties": [],
@@ -3793,8 +3983,8 @@
           "name": "winchester",
           "persistentUuid": "5874001c-d8d9-4e78-ab63-57f97159a7a6",
           "width": 0,
-          "x": 1728,
-          "y": -16,
+          "x": 1952,
+          "y": -144,
           "zOrder": 1060,
           "numberProperties": [],
           "stringProperties": [],
@@ -3826,8 +4016,8 @@
           "name": "xm1014",
           "persistentUuid": "c841923c-facf-4d70-b171-ead2e5202600",
           "width": 0,
-          "x": 1728,
-          "y": -64,
+          "x": 1952,
+          "y": -128,
           "zOrder": 1062,
           "numberProperties": [],
           "stringProperties": [],
@@ -3871,26 +4061,10 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "xm1014",
-          "persistentUuid": "5b86161b-14ab-49ea-9370-512f44a4d3c9",
-          "width": 0,
-          "x": 1728,
-          "y": -160,
-          "zOrder": 1067,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "spas12",
           "persistentUuid": "6c4e7bee-5fa7-4061-90b0-711cd23d177e",
           "width": 0,
-          "x": 1792,
+          "x": 1952,
           "y": -160,
           "zOrder": 1068,
           "numberProperties": [],
@@ -3939,7 +4113,7 @@
           "persistentUuid": "5b24549d-73e8-4909-9aff-f1a077d0e1ec",
           "width": 0,
           "x": 1504,
-          "y": -64,
+          "y": -128,
           "zOrder": 1071,
           "numberProperties": [],
           "stringProperties": [],
@@ -3954,8 +4128,8 @@
           "name": "gs3g1",
           "persistentUuid": "71c3f135-023d-4cd4-b2b5-98d39e80d4c4",
           "width": 0,
-          "x": 1792,
-          "y": -128,
+          "x": 1862,
+          "y": -160,
           "zOrder": 1072,
           "numberProperties": [],
           "stringProperties": [],
@@ -3971,7 +4145,7 @@
           "persistentUuid": "c4802901-80c1-4766-9a23-5302fe24094d",
           "width": 0,
           "x": 1760,
-          "y": -112,
+          "y": -128,
           "zOrder": 1073,
           "numberProperties": [],
           "stringProperties": [],
@@ -3986,8 +4160,8 @@
           "name": "famas",
           "persistentUuid": "66771388-fd43-4387-a68f-a737b0d2d1ca",
           "width": 0,
-          "x": 1792,
-          "y": -96,
+          "x": 1760,
+          "y": -112,
           "zOrder": 1074,
           "numberProperties": [],
           "stringProperties": [],
@@ -4002,9 +4176,57 @@
           "name": "scar",
           "persistentUuid": "211c8355-470e-4b17-9ecd-a7e5586e88c2",
           "width": 0,
-          "x": 1760,
-          "y": -80,
+          "x": 1728,
+          "y": -112,
           "zOrder": 1075,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "krissvector",
+          "persistentUuid": "2c6fc24b-a164-4702-a50e-8f259fcadf21",
+          "width": 0,
+          "x": 1504,
+          "y": -64,
+          "zOrder": 1076,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rpg",
+          "persistentUuid": "3645b2cc-69ef-48d4-a8dd-b76526f46c4d",
+          "width": 0,
+          "x": 1760,
+          "y": -48,
+          "zOrder": 1077,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "grenlaun",
+          "persistentUuid": "9a6d4ede-fbd9-4ca4-9a2a-ac0561cdf85e",
+          "width": 0,
+          "x": 1760,
+          "y": -16,
+          "zOrder": 1078,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4441,8 +4663,8 @@
             {
               "name": "DestroyOutside",
               "type": "DestroyOutsideBehavior::DestroyOutside",
-              "extraBorder": 300,
-              "unseenGraceDistance": 300
+              "extraBorder": 32768,
+              "unseenGraceDistance": 32768
             }
           ],
           "animations": [
@@ -9116,7 +9338,7 @@
             "rowCount": 16,
             "columnCount": 16,
             "tileSize": 32,
-            "tilesWithHitBox": "1,17,3,5,21,7,23,8,24,9,25,10,26,12,28,14,30,45,47,46,41,57,42,58,56,72,55,71,53,37,35,51,48,64,49,65,50,66,80,96,81,97,82,98,83,115,69,85,117,149,101,87,103,104,89,105,73,91,107,123,109,125,60,76,78,62,139,155,171,140,156,172,141,157,173,138,121,137,119,135,151,167,153,169,165,181,189,205,190,206,208,224,209,225,240,241,242,243,244,245,247,248,249"
+            "tilesWithHitBox": "1,17,3,5,21,7,23,8,24,25,26,12,28,14,30,45,47,46,41,57,42,58,56,72,55,71,53,37,35,51,48,64,49,65,50,66,80,96,81,97,82,98,83,115,69,85,117,149,101,87,103,104,89,105,73,91,107,123,109,125,60,76,78,62,139,155,171,140,156,172,141,157,173,138,121,137,119,135,151,167,153,169,165,181,189,205,190,206,208,224,209,225,240,241,242,243,244,245,247,248,249,9,10"
           }
         },
         {
@@ -12541,6 +12763,732 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "rpg",
+          "persistentUuid": "b6556d57-3a5d-4b32-b948-bf1d6f175c46",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 480
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 50
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 200
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "rpg",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "rpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 7
+                          },
+                          {
+                            "x": 64,
+                            "y": 7
+                          },
+                          {
+                            "x": 64,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "kaboom",
+          "persistentUuid": "040f2d2b-deb0-4b77-8a15-6e70692e7a9f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Diameter",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Explosion_gas_circle10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 96,
+                        "y": 96
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 84,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 90
+                          },
+                          {
+                            "x": 103,
+                            "y": 109
+                          },
+                          {
+                            "x": 84,
+                            "y": 109
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Exploso_ammo",
+          "persistentUuid": "3d344a80-e079-4fc8-b514-22d93a7c9fa2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Damage",
+              "persistentUuid": "9d066175-473c-4a41-985e-fe7034905282",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Diameter",
+              "persistentUuid": "e87a46f1-4495-4eb7-a2a7-6d8039f70228",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "rpg_round",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "rpg_round",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 10
+                          },
+                          {
+                            "x": 0,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "grenlaun",
+          "persistentUuid": "fc046a23-5a62-4cc1-a249-ce66571bb1b4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "FireRate",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 180
+            },
+            {
+              "name": "Element",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "M_Ammo",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "R_Ammo",
+              "type": "number",
+              "value": 90
+            },
+            {
+              "name": "C_Ammo",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "R_Time",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Ability",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Special",
+              "type": "number",
+              "value": 125
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "grenlaun",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/grenlaun.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 59,
+                            "y": 4
+                          },
+                          {
+                            "x": 59,
+                            "y": 28
+                          },
+                          {
+                            "x": 4,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -12572,6 +13520,9 @@
           {
             "folderName": "Player Related",
             "children": [
+              {
+                "objectName": "Exploso_ammo"
+              },
               {
                 "objectName": "RE_Ammo"
               },
@@ -12622,6 +13573,12 @@
           {
             "folderName": "Items",
             "children": [
+              {
+                "objectName": "grenlaun"
+              },
+              {
+                "objectName": "rpg"
+              },
               {
                 "objectName": "scout"
               },
@@ -12717,6 +13674,9 @@
               },
               {
                 "objectName": "famas"
+              },
+              {
+                "objectName": "scar"
               }
             ]
           },
@@ -12783,7 +13743,7 @@
             "objectName": "DefaultWeapon"
           },
           {
-            "objectName": "scar"
+            "objectName": "kaboom"
           }
         ]
       },
@@ -12950,7 +13910,7 @@
                     "testext",
                     "Text",
                     "=",
-                    "ToString(SceneInstancesCount(bulle))+\"+\"+bulle.Damage+\"+\"+Enemies.HP+\"+\"+ToString(floor(Player.ObjectTimerElapsedTime(\"rev\")))"
+                    "Player.PE+\"+\"+Player.SE"
                   ]
                 },
                 {
@@ -13415,6 +14375,223 @@
                             "bulle",
                             "IsHitting",
                             "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Exploso_ammo",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Enemies",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "Enemies.HP",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Exploso_ammo",
+                                "Enemies",
+                                "Enemies",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Exploso_ammo",
+                                "barrier",
+                                "Enemies",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "kaboom",
+                            "Exploso_ammo.X()",
+                            "Exploso_ammo.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "kaboom",
+                            "Damage",
+                            "=",
+                            "Exploso_ammo.Damage"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "kaboom",
+                            "Diameter",
+                            "=",
+                            "Exploso_ammo.Diameter"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                          },
+                          "parameters": [
+                            "kaboom",
+                            "Resizable",
+                            "1",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "HP",
+                            "-",
+                            "Exploso_ammo.Damage"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Exploso_ammo",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectWidthTween2"
+                          },
+                          "parameters": [
+                            "kaboom",
+                            "Tween",
+                            "\"groww\"",
+                            "kaboom.Diameter",
+                            "\"easeOutCubic\"",
+                            "0.5",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectHeightTween2"
+                          },
+                          "parameters": [
+                            "kaboom",
+                            "Tween",
+                            "\"growh\"",
+                            "kaboom.Diameter",
+                            "\"easeOutCubic\"",
+                            "0.5",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Enemies",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "DistanceBetweenPositions(kaboom.X(),kaboom.Y(),Enemies.X(),Enemies.Y())",
+                            "<",
+                            "kaboom.Diameter"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "HP",
+                            "-",
+                            "floor((kaboom.Damage/(1+log10(1+DistanceBetweenPositions(kaboom.X(),kaboom.Y(),Damagables.X(),Damagables.Y())))))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Damagables",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "DistanceBetweenPositions(kaboom.X(),kaboom.Y(),Damagables.X(),Damagables.Y())",
+                            "<",
+                            "kaboom.Diameter"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Damagables",
+                            "Health",
+                            "floor((kaboom.Damage/(1+log10(1+DistanceBetweenPositions(kaboom.X(),kaboom.Y(),Damagables.X(),Damagables.Y())))/10))",
+                            "kaboom.Damage/5",
+                            "",
                             ""
                           ]
                         }
@@ -14870,6 +16047,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Bullet",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14970,6 +16148,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -15082,6 +16261,7 @@
                       ],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -15179,6 +16359,17 @@
                                         "=",
                                         "\"spas12\""
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "PrimarySlot",
+                                        "Item",
+                                        "=",
+                                        "\"grenlaun\""
+                                      ]
                                     }
                                   ]
                                 }
@@ -15251,6 +16442,17 @@
                                     "Item",
                                     "!=",
                                     "\"xm1014\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "PrimarySlot",
+                                    "Item",
+                                    "!=",
+                                    "\"grenlaun\""
                                   ]
                                 }
                               ],
@@ -15440,6 +16642,17 @@
                                         "=",
                                         "\"spas12\""
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "PrimarySlot",
+                                        "Item",
+                                        "=",
+                                        "\"grenlaun\""
+                                      ]
                                     }
                                   ]
                                 }
@@ -15615,6 +16828,17 @@
                                     "Item",
                                     "!=",
                                     "\"spas12\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "PrimarySlot",
+                                    "Item",
+                                    "!=",
+                                    "\"grenlaun\""
                                   ]
                                 }
                               ],
@@ -16272,6 +17496,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Primary",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16409,6 +17634,7 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
+                              "folded": true,
                               "name": "Ammo",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
@@ -16460,7 +17686,7 @@
                                         "bulle",
                                         "CursorX()",
                                         "CursorY()",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -16547,7 +17773,7 @@
                                         "bulle",
                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -16700,7 +17926,7 @@
                                         "bulle",
                                         "CursorX()",
                                         "CursorY()",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -16787,7 +18013,7 @@
                                         "bulle",
                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -16949,7 +18175,7 @@
                                         "bulle",
                                         "CursorX()",
                                         "CursorY()",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -17036,7 +18262,7 @@
                                         "bulle",
                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -17198,7 +18424,7 @@
                                         "bulle",
                                         "CursorX()",
                                         "CursorY()",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -17285,7 +18511,7 @@
                                         "bulle",
                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -17988,7 +19214,7 @@
                                             "bulle",
                                             "CursorX()",
                                             "CursorY()",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -18674,7 +19900,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
                                                 "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -18786,7 +20012,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
                                                 "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -19019,7 +20245,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
                                                 "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -19131,7 +20357,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*cos(ToRad(RandomInRange(0, 360)))",
                                                 "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread*2))*sin(ToRad(RandomInRange(0, 360)))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -19278,7 +20504,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread))*cos(ToRad(RandomInRange(0, 360)))",
                                                 "CursorY()+RandomFloatInRange(0,DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/(Spread))*sin(ToRad(RandomInRange(0, 360)))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -19538,7 +20764,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                 "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -19647,7 +20873,7 @@
                                                     "bulle",
                                                     "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                     "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                    "500",
+                                                    "800",
                                                     ""
                                                   ]
                                                 },
@@ -19747,7 +20973,7 @@
                                                         "bulle",
                                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                        "500",
+                                                        "800",
                                                         ""
                                                       ]
                                                     },
@@ -19866,7 +21092,7 @@
                                                     "bulle",
                                                     "CursorX()",
                                                     "CursorY()",
-                                                    "500",
+                                                    "800",
                                                     ""
                                                   ]
                                                 },
@@ -19934,7 +21160,7 @@
                                                     "bulle",
                                                     "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                     "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                    "500",
+                                                    "800",
                                                     ""
                                                   ]
                                                 },
@@ -19987,6 +21213,7 @@
                           ]
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -20136,7 +21363,7 @@
                                         "bulle",
                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -20213,7 +21440,7 @@
                                             "bulle",
                                             "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                             "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -20313,7 +21540,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                 "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -20363,6 +21590,194 @@
                                                 "Player.PD"
                                               ]
                                             }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        },
+                        {
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "InvItemPrimary",
+                                "Animation",
+                                "!=",
+                                "\"empty\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"grenlaun\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "InvItemPrimary",
+                                    "Animation",
+                                    "=",
+                                    "\"rpg\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "1.5",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ZoomCamera"
+                              },
+                              "parameters": [
+                                "",
+                                "1.5",
+                                "\"Dark layer\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "folded": true,
+                              "name": "Ammo",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "folded": true,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonFromTextPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"Left\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::IsReadyToShoot"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            ""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "FireBullet",
+                                            "Player.X()",
+                                            "Player.Y()",
+                                            "Exploso_ammo",
+                                            "CursorX()",
+                                            "CursorY()",
+                                            "800",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "PC_Ammo",
+                                            "-",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "gunshot.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Exploso_ammo",
+                                            "Damage",
+                                            "=",
+                                            "Player.PD"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Exploso_ammo",
+                                            "Diameter",
+                                            "=",
+                                            "Player.PSpecial"
                                           ]
                                         }
                                       ]
@@ -20585,7 +22000,7 @@
                                             "bulle",
                                             "CursorX()",
                                             "CursorY()",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -20663,7 +22078,7 @@
                                             "bulle",
                                             "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                             "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -20830,7 +22245,7 @@
                                             "bulle",
                                             "CursorX()",
                                             "CursorY()",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -20908,7 +22323,7 @@
                                             "bulle",
                                             "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                             "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -21075,7 +22490,7 @@
                                             "bulle",
                                             "CursorX()",
                                             "CursorY()",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -21153,7 +22568,7 @@
                                             "bulle",
                                             "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                             "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -21315,7 +22730,7 @@
                                             "bulle",
                                             "CursorX()",
                                             "CursorY()",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -21383,7 +22798,7 @@
                                             "bulle",
                                             "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                             "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -21539,7 +22954,7 @@
                                             "bulle",
                                             "CursorX()",
                                             "CursorY()",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -21768,7 +23183,7 @@
                                         "bulle",
                                         "CursorX()",
                                         "CursorY()",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -21855,7 +23270,7 @@
                                         "bulle",
                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -22088,7 +23503,7 @@
                                                 "bulle",
                                                 "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                 "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                "500",
+                                                "800",
                                                 ""
                                               ]
                                             },
@@ -22188,7 +23603,7 @@
                                                     "bulle",
                                                     "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                     "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                    "500",
+                                                    "800",
                                                     ""
                                                   ]
                                                 },
@@ -22288,7 +23703,7 @@
                                                         "bulle",
                                                         "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                         "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                        "500",
+                                                        "800",
                                                         ""
                                                       ]
                                                     },
@@ -22436,7 +23851,7 @@
                                                     "bulle",
                                                     "CursorX()",
                                                     "CursorY()",
-                                                    "500",
+                                                    "800",
                                                     ""
                                                   ]
                                                 },
@@ -22538,7 +23953,7 @@
                                                     "bulle",
                                                     "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                                     "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                                    "500",
+                                                    "800",
                                                     ""
                                                   ]
                                                 },
@@ -22824,7 +24239,7 @@
                                         "bulle",
                                         "CursorX()",
                                         "CursorY()",
-                                        "500",
+                                        "800",
                                         ""
                                       ]
                                     },
@@ -22936,7 +24351,7 @@
                                             "bulle",
                                             "CursorX()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*cos(ToRad(RANDOM1*360))",
                                             "CursorY()+RandomFloatInRange(0, DistanceBetweenPositions(CursorX(),CursorY(),Player.X(),Player.Y())/Spread)*sin(ToRad(RANDOM1*360))",
-                                            "500",
+                                            "800",
                                             ""
                                           ]
                                         },
@@ -23993,7 +25408,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Inventory",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -24407,7 +25821,7 @@
                                         "Player",
                                         "PE",
                                         "=",
-                                        "RandomInRange(0,7)"
+                                        "RandomInRange(1,7)"
                                       ]
                                     }
                                   ]
@@ -24444,7 +25858,6 @@
                               ]
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -24605,7 +26018,7 @@
                                         "Player",
                                         "PE",
                                         "=",
-                                        "RandomInRange(0,7)"
+                                        "RandomInRange(1,7)"
                                       ]
                                     }
                                   ]
@@ -24657,7 +26070,6 @@
                       "type": "BuiltinCommonInstructions::Group",
                       "events": [
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -24943,7 +26355,7 @@
                                       },
                                       "parameters": [
                                         "Player",
-                                        "PE",
+                                        "SE",
                                         "=",
                                         "RandomInRange(0,7)"
                                       ]
@@ -24972,7 +26384,7 @@
                                       },
                                       "parameters": [
                                         "Player",
-                                        "PE",
+                                        "SE",
                                         "=",
                                         "Secondary.Element"
                                       ]
@@ -25130,7 +26542,7 @@
                                       },
                                       "parameters": [
                                         "Player",
-                                        "PE",
+                                        "SE",
                                         "=",
                                         "RandomInRange(0,7)"
                                       ]
@@ -25159,7 +26571,7 @@
                                       },
                                       "parameters": [
                                         "Player",
-                                        "PE",
+                                        "SE",
                                         "=",
                                         "Secondary.Element"
                                       ]
@@ -25732,7 +27144,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Dropping Off Items",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -25920,6 +27331,116 @@
                                 "=",
                                 "PrimarySlot.ETemp"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PSpecial",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PC_Ammo",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PR_Ammo",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PM_Ammo",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PMode",
+                                "False",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PD",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PSpecial",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PE",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PFR",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PRT",
+                                "=",
+                                "0"
+                              ]
                             }
                           ]
                         }
@@ -25931,7 +27452,6 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
-                      "folded": true,
                       "name": "Secondary",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
